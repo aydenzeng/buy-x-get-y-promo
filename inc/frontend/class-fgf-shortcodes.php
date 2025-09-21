@@ -275,10 +275,10 @@ if (!class_exists('FGF_Shortcodes')) {
 			// 输出完整内容
 			echo '<div class="fgf-promotion-detail">';
 			echo '<h2 class="fgf-promotion-title">' . $title . '</h2>';
-			echo '<p class="fgf-promotion-validity"><strong>' . __('Validity:', 'buy-x-get-y-promo') . '</strong> ' . $validity . '</p>';
+			echo '<p class="fgf-promotion-validity"><strong>' . __('Validity', 'buy-x-get-y-promo') . ':</strong> ' . $validity . '</p>';
 			echo '<div class="fgf-promotion-description">' . wpautop(esc_html($rule->get_description())) . '</div>';
 			echo '<div class="fgf-promotion-products-wrapper">';
-			echo '<h3>' . __('Products in this Promotion:', 'buy-x-get-y-promo') . '</h3>';
+			echo '<h3>' . __('Products in this Promotion', 'buy-x-get-y-promo') . '</h3>';
 			echo $product_html;
 			echo '</div>';
 			echo '</div>';
