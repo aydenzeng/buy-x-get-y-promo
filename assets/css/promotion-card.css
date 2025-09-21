@@ -165,29 +165,12 @@
 
 
 /* 商品卡片容器要 position: relative; */
-.woocommerce ul.products li.product {
+.woocommerce ul.products li.product,
+.wp-block-woocommerce-product-collection ul.wp-block-woocommerce-product-template li{
     position: relative;
 }
 
-.custom-sale-badge {
-    position: absolute;
-    top: 10px;  /* 距离上边距 */
-    right: 10px; /* 右上角。如果想左上角改成 left:10px */
-    background: red;
-    color: #fff;
-    padding: 4px 8px;
-    font-size: 12px;
-    font-weight: bold;
-    border-radius: 3px;
-    z-index: 9;
-}
-
-
-.woocommerce div.product div.images {
-    position: relative;
-}
-
-.woocommerce div.product div.images .custom-sale-badge {
+.fgf-sale-badge {
     position: absolute;
     top: 10px;
     left: 10px;  /* 左上角，如果要右上角改成 right */

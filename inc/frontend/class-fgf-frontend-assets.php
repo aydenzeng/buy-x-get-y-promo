@@ -193,7 +193,7 @@ if (!class_exists('FGF_Fronend_Assets')) {
 			self::register_styles();
 
 			// Enqueue scripts in cart and checkout page.
-			if (is_cart() || is_checkout()) {
+			if (is_cart() || is_checkout() || is_shop() || is_product_category()) {
 				self::enqueue_registered_scripts();
 				self::enqueue_registered_styles();
 			}
