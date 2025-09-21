@@ -1,0 +1,201 @@
+/* === Promotion Card Styles === */
+
+.fgf-promotions-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 20px;
+	margin: 20px 0;
+    cursor: pointer;
+}
+.fgf-promotion-card {
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	border-radius: 12px;
+	padding: 20px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.fgf-promotion-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+.fgf-promotion-title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #333;
+}
+.fgf-promotion-validity {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 8px;
+}
+.fgf-promotion-products a {
+	color: #0073aa;
+	text-decoration: none;
+}
+.fgf-promotion-products a:hover {
+	text-decoration: underline;
+}
+
+
+/* === Pagination Styles === */
+.fgf-pagination {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.fgf-pagination a,
+.fgf-pagination span.current-page {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #0073aa;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.fgf-pagination a:hover {
+    background: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+.fgf-pagination span.current-page {
+    background: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+    font-weight: bold;
+    cursor: default;
+}
+
+/* 上一页/下一页按钮风格 (如果将来加) */
+.fgf-pagination .prev-page,
+.fgf-pagination .next-page {
+    font-weight: bold;
+}
+
+
+
+#promotion-loadmore-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#promotion-loadmore {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+#promotion-loadmore:hover {
+    background-color: #005177;
+    transform: translateY(-2px);
+}
+
+#promotion-loadmore:active {
+    transform: translateY(0);
+}
+
+
+
+/* Promotion Detail */
+.fgf-promotion-detail {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products  {
+    list-style: none;;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-1 {
+    grid-template-columns: 1fr;
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* === Responsive Pagination Styles === */
+@media (max-width: 600px) {
+    .fgf-pagination {
+        overflow-x: auto;       /* 横向滚动 */
+        white-space: nowrap;    /* 避免换行 */
+        padding: 10px 0;
+    }
+
+    .fgf-pagination a,
+    .fgf-pagination span.current-page {
+        display: inline-block;
+        margin: 0 5px 0 0;      /* 横向间距 */
+        padding: 8px 14px;       /* 点击区域大一些 */
+        min-width: 40px;         /* 保证数字按钮宽度一致 */
+        text-align: center;
+    }
+
+    /* 卡片与分页间距 */
+    #promotion-list {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* 商品卡片容器要 position: relative; */
+.woocommerce ul.products li.product {
+    position: relative;
+}
+
+.custom-sale-badge {
+    position: absolute;
+    top: 10px;  /* 距离上边距 */
+    right: 10px; /* 右上角。如果想左上角改成 left:10px */
+    background: red;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 9;
+}
+
+
+.woocommerce div.product div.images {
+    position: relative;
+}
+
+.woocommerce div.product div.images .custom-sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;  /* 左上角，如果要右上角改成 right */
+    background: red;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    z-index: 9;
+}

@@ -1,0 +1,3521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: buy-x-get-y-promo\n"
+"POT-Creation-Date: 2024-11-12 23:06+0530\n"
+"PO-Revision-Date: 2025-09-14 14:47+0000\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_attr_e;esc_html__;esc_attr__;"
+"esc_html_x;esc_attr_x\n"
+"X-Poedit-SearchPath-0: buy-x-get-y-promo.php\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: templates\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.8.0; wp-6.8.2; php-8.0.30"
+
+#: inc/admin/menu/tabs/settings.php:354
+msgid ""
+" Displaying more than 3 products per page in a Carousel can cause Display "
+"related issues. Do you want to save anyway?"
+msgstr "在旋轉木馬（Carousel）中每頁顯示超過 3 件商品可能會導致顯示相關問題。你仍然要儲存嗎？"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:148
+msgid ""
+" This option provides additional control on when to award the Free Gifts."
+msgstr "此選項提供額外控制，以決定何時發放贈品。"
+
+#: inc/privacy/class-fgf-privacy.php:63
+msgid " This Plugin stores user name, user email Information from the user."
+msgstr "此插件會儲存使用者的名稱及電子郵件資訊。"
+
+#: inc/admin/menu/tabs/settings.php:75
+msgid ""
+" When enabled, the products which are configured to be given as Free Gifts "
+"will be hidden in Shop and Category Pages."
+msgstr "啟用後，設定為贈品的商品將在商店頁面及分類頁面隱藏。"
+
+#: inc/admin/menu/tabs/settings.php:907
+msgid ""
+"<b>Supported Shortcodes:</b></br>[added_gift_count] - To show the Added gift "
+"count"
+msgstr "<b>支援的短代碼：</b></br>[added_gift_count] — 用於顯示已加入的贈品數量。"
+
+#: inc/admin/menu/tabs/settings.php:964
+msgid ""
+"<b>Supported Shortcodes:</b></br>[cart_page] - To show the cart page link as "
+"a button"
+msgstr "<b>支援的短代碼：</b></br>[cart_page] - 將購物車頁面連結顯示為按鈕。"
+
+#: inc/admin/menu/tabs/settings.php:900
+msgid ""
+"<b>Supported Shortcodes:</b></br>[maximum_gift_count] - To show the Maximum "
+"gift count"
+msgstr "<b>支持的短代碼: </b></br>[Maximum_Gift_Count] - 顯示最大禮物數量"
+
+#: inc/admin/menu/tabs/settings.php:914
+msgid ""
+"<b>Supported Shortcodes:</b></br>[remaining_gift_count] - To show the "
+"remaining gift count"
+msgstr "<b>支援的短代碼：</b></br>[remaining_gift_count] — 用於顯示剩餘的贈品數量。"
+
+#: inc/admin/menu/tabs/settings.php:943 inc/admin/menu/tabs/settings.php:950
+msgid ""
+"<b>Supported Shortcodes:</b></br>[remaining_gift_count] - To show the "
+"remaining gift count that need to be manually added by the customer"
+msgstr "<b>支援的短代碼：</b></br>[remaining_gift_count] — 用於顯示使用者尚需手動加入的剩餘贈品數量。"
+
+#: inc/admin/menu/tabs/settings.php:797
+msgid "<b>Supported Shortcodes:</b></br>{site_name} - To show the site name"
+msgstr "<b>支援的短代碼：</b></br>{site_name} — 顯示網站名稱"
+
+#: inc/admin/menu/tabs/settings.php:812
+msgid ""
+"<b>Supported Shortcodes:</b></br>{user_name} - To show the username</br>"
+"{free_gifts} - To show the free gifts details</br>{order_id} - To show the "
+"order ID"
+msgstr ""
+"<b>支援的短代碼：</b></br>{user_name} — 顯示使用者名稱</br>{free_gifts} — 顯示贈品詳情</br>"
+"{order_id} — 顯示訂單編號"
+
+#: inc/admin/menu/views/html-shortcodes-info.php:19
+msgid "[shortcode parameter1 = \"value\" parameter2 = \"value\" ]"
+msgstr "[shortcode parameter1 = \"value\" parameter2 = \"value\" ]"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:217
+msgid "Across the Eligible Products"
+msgstr "跨所有符合條件的商品"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:174
+msgid "Actions"
+msgstr "操作"
+
+#: inc/admin/fgf-admin-functions.php:508
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:236
+msgid "Activate"
+msgstr ""
+"啟用\n"
+
+#: inc/class-fgf-register-post-status.php:74 inc/fgf-default-functions.php:28
+msgid "Active"
+msgstr "激活"
+
+#: inc/admin/menu/views/html-order-item-add-gift.php:52
+msgid "Add Gift"
+msgstr "新增贈品"
+
+#: inc/admin/menu/views/html-order-item-add-gift.php:11
+msgid "Add Gift Item(s)"
+msgstr "新增贈品項目"
+
+#: inc/admin/menu/views/html-order-item-add-gift.php:19
+msgid "Add Gift Products"
+msgstr "新增贈品商品"
+
+#: inc/admin/menu/tabs/rules.php:283
+msgid "Add New Rule"
+msgstr ""
+"新增規則\n"
+
+#: inc/admin/menu/views/add-new-rule.php:55
+msgid "Add Rule"
+msgstr ""
+"添加規則\n"
+
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:28
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:37
+#: inc/fgf-template-functions.php:591 templates/gift-products.php:48
+msgid "Add to cart"
+msgstr "添加到購物車"
+
+#: inc/admin/menu/tabs/settings.php:903
+msgid "Added Gift Count Label"
+msgstr "已加入贈品數量標籤"
+
+#: inc/admin/class-fgf-admin-ajax.php:295
+#, php-format
+msgid "Added Gift line items: %s"
+msgstr ""
+"已加入的贈品項目：%s\n"
+
+#: inc/admin/menu/tabs/settings.php:43
+msgid "Advanced"
+msgstr ""
+"進階\n"
+
+#: inc/admin/menu/tabs/settings.php:234
+msgid "After Cart Table"
+msgstr "購物車表格之後"
+
+#: inc/admin/menu/tabs/settings.php:283
+msgid "After Checkout Billing Form"
+msgstr ""
+"結帳帳單表單之後\n"
+
+#: inc/admin/menu/tabs/settings.php:111
+msgid "Ajax Add to Cart for Manual Gift Products"
+msgstr "手動選擇贈品的 Ajax 加入購物車功能"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:284
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:317
+msgid "All"
+msgstr ""
+"全部\n"
+
+#: inc/fgf-default-functions.php:117
+msgid "All Categories"
+msgstr ""
+"所有分類\n"
+
+#: inc/fgf-default-functions.php:114
+msgid "All Product(s)"
+msgstr ""
+"所有商品\n"
+
+#: inc/fgf-default-functions.php:175
+msgid "All the selected Product(s) must be in cart"
+msgstr "購物車中必須包含所有所選的商品。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:95
+msgid "All the selected Product(s) must be in the cart"
+msgstr "購物車中必須包含所有所選的商品。"
+
+#: inc/fgf-default-functions.php:83
+msgid "All User(s)"
+msgstr ""
+"所有使用者\n"
+
+#: inc/admin/menu/tabs/settings.php:118
+msgid ""
+"Allow Adding Multiple Quantities of Same Gift Product in an Order (Only for "
+"Manual Free Gifts)"
+msgstr "同一贈品在訂單中可多件（僅適用於手動選擇的贈品）"
+
+#: inc/admin/menu/tabs/settings.php:477
+msgid "Allow Quantity selection for Gift Product(s)"
+msgstr "允許為贈品選擇數量"
+
+#: inc/admin/menu/tabs/settings.php:487
+msgid "Allow Quantity selection for the Manually selecting Gift Product(s)"
+msgstr "允許手動選擇的贈品選擇數量"
+
+#: inc/admin/menu/tabs/settings.php:135
+msgid "Allow Shipping Cost for Free Gift"
+msgstr "允許贈品產生運費"
+
+#: inc/admin/menu/tabs/settings.php:126
+msgid "Allow User(s) to remove the automatically added Gift Product(s)"
+msgstr "允許使用者移除自動加入的贈品"
+
+#: inc/admin/menu/tabs/settings.php:251
+msgid "Allow Users to Choose Free Gifts in Checkout Page"
+msgstr "允許使用者在結帳頁面選擇贈品"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:31
+msgid "AND"
+msgstr ""
+"並且\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:26
+msgid ""
+"AND – The user will be eligible only when they satisfy both the criteria. OR "
+"– The user will be eligible if they satisfy any one of the criteria"
+msgstr ""
+"並且 – 使用者必須同時符合兩個條件才有資格。或者 – 使用者只要符合其中一個條件即可有資格\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:106
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:36
+msgid ""
+"Any one of the product(s) from the selected category must be in the cart"
+msgstr "購物車中至少要包含所選分類中的任一商品。"
+
+#: inc/fgf-default-functions.php:204
+msgid "Any one of the product(s) should be from the selected category"
+msgstr ""
+"所選分類中至少需有一個商品\n"
+
+#: inc/fgf-default-functions.php:234
+msgid ""
+"Any one of the product(s) should be in the cart from the selected Brand(s)"
+msgstr "購物車中至少要包含所選品牌中的任一商品。"
+
+#: inc/fgf-default-functions.php:174
+msgid "Any one of the selected Product(s) must be in cart"
+msgstr "購物車中至少要包含所選的任一商品。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:94
+msgid "Any one of the selected Product(s) must be in the cart"
+msgstr "購物車中至少要包含所選的任一商品。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:147
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:211
+#: inc/compatibility/views/html-rule-product-brand-filters.php:13
+msgid "Applicable when"
+msgstr ""
+"適用於\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:36
+msgid "Apply this Rule Along with Other Matching Rules"
+msgstr "與其他符合條件的規則同時套用此規則"
+
+#: inc/admin/class-fgf-admin-assets.php:107
+msgid "Are you sure you want to delete?"
+msgstr ""
+"你確定要刪除嗎？\n"
+
+#: inc/admin/class-fgf-admin-assets.php:108
+msgid "Are you sure you want to duplicate?"
+msgstr ""
+"你確定要複製嗎？\n"
+
+#: inc/admin/menu/tabs/settings.php:423
+msgid "Auto Play"
+msgstr ""
+"自動播放\n"
+
+#: inc/admin/fgf-admin-functions.php:323 inc/admin/menu/tabs/settings.php:471
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:285
+#: inc/class-fgf-register-post-status.php:155
+msgid "Automatic"
+msgstr ""
+"自動\n"
+
+#: inc/admin/menu/tabs/settings.php:1008
+msgid "Automatic Gift"
+msgstr "自動贈品"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:19
+msgid "Automatic Gifts"
+msgstr "自動贈品（複數）"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:202
+msgid "Automatic Product Quantity."
+msgstr "自動商品數量"
+
+#: inc/admin/menu/tabs/settings.php:474
+msgid ""
+"Automatic: Gift Product will be added to cart automatically once the Gift "
+"Product is selected in the dropdown(select box). Manually: The Addd to Cart "
+"Button has to be clicked for adding the product to the cart."
+msgstr ""
+"自動：當從下拉選單（select box）中選擇贈品時，贈品會自動加入購物車。\n"
+"手動：必須點擊『加入購物車』按鈕，才能將贈品加入購物車。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:85
+msgid "Award Gift based on User's Purchase History"
+msgstr "根據使用者的購買歷史發放贈品"
+
+#: inc/admin/menu/tabs/settings.php:235
+msgid "Before Cart Table"
+msgstr "購物車表格之前"
+
+#: inc/admin/menu/tabs/settings.php:282
+msgid "Before Checkout Form"
+msgstr ""
+"結帳表單之前\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:207
+msgid "BOGO Gift Type."
+msgstr ""
+"BOGO 贈品類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:299
+msgid "BOGO Repeat Gifts Limit."
+msgstr ""
+"BOGO 重複贈品限制\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:294
+msgid "BOGO Repeat Gifts Mode."
+msgstr ""
+"BOGO 重複贈品模式\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:289
+msgid "BOGO Repeat Gifts."
+msgstr ""
+"BOGO 重複贈品\n"
+
+#: inc/compatibility/class-wc-brands.php:216
+#: inc/compatibility/class-wc-brands.php:342
+#: inc/compatibility/class-wc-brands.php:398
+msgid "Brands"
+msgstr ""
+"品牌\n"
+
+#: inc/compatibility/class-wc-brands.php:241
+msgid "Brands Total"
+msgstr ""
+"品牌總數\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:74
+msgid "Buy Category"
+msgstr ""
+"購買類別\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:243
+msgid "Buy Category Consider Type."
+msgstr ""
+"購買類別考慮類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:230
+msgid "Buy Category IDs."
+msgstr ""
+"購買類別 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:217
+msgid "Buy Category Type."
+msgstr ""
+"購買類別類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:54
+msgid "Buy Product"
+msgstr ""
+"購買產品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:90
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:102
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:31
+msgid "Buy Product condition applicable when"
+msgstr ""
+"購買產品條件適用於\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:238
+msgid "Buy Product Consider Type."
+msgstr ""
+"購買產品考慮類型\n"
+
+#: inc/admin/menu/tabs/rules.php:592
+msgid "Buy Product count cannot be empty."
+msgstr ""
+"購買產品數量不能為空\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:279
+msgid "Buy Product Count."
+msgstr ""
+"購買產品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:222
+msgid "Buy Product IDs."
+msgstr ""
+"購買產品 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:248
+msgid "Buy Product Quantity Consider Type."
+msgstr ""
+"購買產品數量考慮類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:39
+msgid "Buy Product Type"
+msgstr ""
+"購買產品類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:212
+msgid "Buy Product Type."
+msgstr ""
+"購買產品類型\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:552
+msgid "Buy Product(s)"
+msgstr ""
+"購買產品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:36
+msgid "Buy Product(s) Configuration"
+msgstr ""
+"購買產品配置\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:236
+msgid "Buy Quantity"
+msgstr ""
+"購買數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:114
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:129
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:44
+msgid "Buy Quantity Calculation Based on"
+msgstr ""
+"購買數量計算依據\n"
+
+#: inc/admin/fgf-admin-functions.php:325 inc/admin/menu/tabs/settings.php:1014
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:22
+msgid "Buy X Get Y - Automatic"
+msgstr ""
+"買 X 得 Y - 自動\n"
+
+#: inc/admin/fgf-admin-functions.php:324
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:21
+msgid "Buy X Get Y - Manual"
+msgstr ""
+"買 X 得 Y - 手動\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:20
+msgid "Buy X Get Y(Buy One Get One)"
+msgstr ""
+"買 X 得 Y（買一送一）\n"
+
+#: inc/admin/menu/tabs/settings.php:565
+msgid ""
+"By default, All the Free Gift(s) Eligibility Notices will display. You can "
+"switch to Single Notice Display to show the First Match rule."
+msgstr ""
+"默認情況下，所有免費贈品資格通知都會顯示。您可以切換為單一通知顯示，僅顯示第一條符合規則的通知。\n"
+
+#: inc/admin/menu/tabs/settings.php:522
+msgid ""
+"By default, Free Gift messages will be displayed in WooCommerce Notices. You "
+"can switch to Plugin's Own Notice if your theme doesn't support WooCommerce "
+"Notices."
+msgstr ""
+"默認情況下，免費贈品訊息會顯示在 WooCommerce 通知中。如果您的主題不支援 WooCommerce 通知，您可以切換為插件自帶的通知。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:94
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:76
+msgid "Calculate Category Total Criteria after WC Coupon Discount is applied"
+msgstr ""
+"計算 WC 優惠券折扣後的分類總額條件\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:468
+msgid "Calculate Discounted Categories Total."
+msgstr ""
+"計算折扣後的分類總額\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:165
+#, php-format
+msgid "Cannot create existing %s."
+msgstr ""
+"無法創建已存在的 %s\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:473
+#: inc/admin/class-fgf-admin-ajax.php:485
+#: inc/admin/class-fgf-admin-ajax.php:490
+#: inc/admin/class-fgf-admin-ajax.php:495
+#: inc/admin/class-fgf-admin-ajax.php:503
+#: inc/admin/class-fgf-admin-ajax.php:508
+#: inc/admin/class-fgf-admin-ajax.php:513
+#: inc/admin/class-fgf-admin-ajax.php:518
+#: inc/admin/class-fgf-admin-ajax.php:523
+msgid "Cannot process action"
+msgstr ""
+"無法處理操作\n"
+
+#: inc/admin/menu/tabs/settings.php:320
+msgid "Carousel"
+msgstr ""
+"輪播\n"
+
+#: inc/admin/menu/tabs/settings.php:549
+msgid "Cart"
+msgstr ""
+"購物車\n"
+
+#: inc/admin/menu/tabs/settings.php:548
+msgid "Cart & Checkout"
+msgstr "購物車 & 結賬"
+
+#: inc/admin/menu/tabs/settings.php:935
+msgid "Cart & Checkout Page Messages"
+msgstr "購物車與結帳頁面訊息"
+
+#: inc/admin/menu/tabs/settings.php:873
+msgid "Cart Free Gift Label"
+msgstr "購物車贈品標籤"
+
+#: inc/admin/menu/tabs/settings.php:867
+msgid "Cart Gift Type Label"
+msgstr "購物車贈品類型標籤"
+
+#: inc/admin/menu/tabs/settings.php:967
+msgid "Cart Link Shortcode Label"
+msgstr "購物車連結短代碼標籤"
+
+#: inc/admin/menu/tabs/settings.php:863
+msgid "Cart Page Localization"
+msgstr "購物車頁面本地化設定"
+
+#: inc/admin/menu/tabs/settings.php:213
+msgid "Cart Page Settings"
+msgstr "購物車頁面設置"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:116
+msgid "Cart Quantity"
+msgstr "購物車數量"
+
+#: inc/fgf-default-functions.php:53
+msgid "Cart Subtotal"
+msgstr "購物車小計"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:40
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:25
+msgid ""
+"Cart Subtotal - Sum of all Product Prices and Taxes if applicable. Order "
+"Total - Sum of all Product Prices, Shipping and Taxes. Category Total - Sum "
+"of all Product Prices plus applicable Taxes that belong to a particular "
+"category."
+msgstr ""
+"購物車小計（Cart Subtotal）——所有商品價格及適用稅金的總和。\n"
+"訂單總計（Order Total）——所有商品價格、運費及稅金的總和。\n"
+"分類總計（Category Total）——特定分類商品的價格總和及適用稅金。"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:526
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:587
+msgid "Categories"
+msgstr ""
+"分類\n"
+
+#: inc/admin/fgf-admin-functions.php:434
+msgid "Category"
+msgstr ""
+"分類\n"
+
+#: inc/fgf-default-functions.php:55
+msgid "Category Total"
+msgstr ""
+"分類總計\n"
+
+#: inc/admin/menu/tabs/settings.php:550
+msgid "Checkout"
+msgstr "結賬"
+
+#: inc/admin/menu/tabs/settings.php:247
+msgid "Checkout Page Settings"
+msgstr ""
+"結帳頁面設定\n"
+"\n"
+
+#: inc/admin/menu/tabs/settings.php:553
+msgid "Choose where you want to display the Free Gift(s) eligibility notice."
+msgstr ""
+"選擇要顯示免費贈品資格通知的位置\n"
+
+#: inc/admin/menu/tabs/settings.php:647
+msgid "Choose whether the frontend scripts has to be loaded on Header/Footer"
+msgstr ""
+"選擇前端腳本是否要加載在頁首或頁尾\n"
+
+#: inc/admin/menu/tabs/shortcodes.php:58
+#: inc/admin/menu/views/shortcode/html-example-shortcode-content.php:13
+msgid "Common Shortcodes"
+msgstr ""
+"常用短代碼\n"
+
+#: inc/admin/fgf-admin-functions.php:115
+msgid "Completed"
+msgstr ""
+"已完成\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:463
+msgid "Consider Criteria Sub Categories Total."
+msgstr ""
+"考慮分類子項總額\n"
+
+#: inc/admin/fgf-admin-functions.php:327
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:30
+msgid "Coupon based Free Gift - Automatic"
+msgstr ""
+"基於優惠券的免費贈品 - 自動\n"
+
+#: inc/admin/fgf-admin-functions.php:326
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:29
+msgid "Coupon based Free Gift - Manual"
+msgstr ""
+"基於優惠券的免費贈品 - 手動\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:28
+msgid "Coupon Based Free Gifts"
+msgstr ""
+"基於優惠券的免費贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:1020
+msgid "Coupon based Gift - Automatic"
+msgstr ""
+"基於優惠券的贈品 - 自動\n"
+
+#: inc/admin/menu/tabs/settings.php:1055
+msgid "Coupon based Gift limitation"
+msgstr ""
+"基於優惠券的贈品限制\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:540
+msgid "Coupon Code to Apply"
+msgstr ""
+"要使用的優惠券代碼\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:21
+msgid "Coupon Configuration"
+msgstr ""
+"優惠券配置\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:312
+msgid "Coupon Gift Product IDs."
+msgstr ""
+"優惠券贈品產品 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:320
+msgid "Coupon Gift Product Quantity."
+msgstr ""
+"優惠券贈品產品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:304
+msgid "Coupon IDs."
+msgstr ""
+"優惠券 ID\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:162
+msgid "Coupon Restrictions"
+msgstr ""
+"優惠券限制\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:168
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:172
+msgid "Created Date"
+msgstr ""
+"建立日期\n"
+
+#: inc/admin/menu/tabs/rules.php:342
+msgid "Criteria"
+msgstr ""
+"條件\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:39
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:24
+msgid "Criteria Calculated based on"
+msgstr ""
+"條件計算依據\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:456
+msgid "Criteria Category IDs."
+msgstr ""
+"條件分類 ID\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:22
+msgid "Criteria Configuration"
+msgstr ""
+"條件配置\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:451
+msgid "Criteria Total Type."
+msgstr ""
+"條件總額類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:25
+msgid "Criteria Type"
+msgstr "條件類型"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:446
+msgid "Criteria Type."
+msgstr "條件類型"
+
+#: inc/admin/menu/tabs/settings.php:705
+msgid "Cron Information"
+msgstr "計劃任務信息"
+
+#: inc/admin/menu/views/html-cron-info.php:12
+msgid "Cron Name"
+msgstr "計劃任務名稱"
+
+#: inc/admin/menu/tabs/settings.php:1092
+msgid "Cron not Triggered"
+msgstr "計劃任務未啟動"
+
+#: inc/admin/menu/tabs/settings.php:719 inc/admin/menu/tabs/settings.php:723
+msgid "Custom CSS"
+msgstr "自定義CSS"
+
+#: inc/admin/menu/tabs/settings.php:284
+msgid "Custom Hook"
+msgstr "自定義hook"
+
+#: inc/admin/menu/tabs/settings.php:289
+msgid "Custom Hook Name"
+msgstr "自定義Hook名稱"
+
+#: inc/admin/menu/tabs/settings.php:296
+msgid "Custom Hook Priority"
+msgstr "自定義Hook優先級"
+
+#: inc/admin/menu/tabs/settings.php:691
+msgid "Day(s)"
+msgstr ""
+"天\n"
+
+#: inc/admin/fgf-admin-functions.php:512
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:237
+msgid "Deactivate"
+msgstr ""
+"停用\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:226
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:238
+msgid "Delete"
+msgstr ""
+"刪除\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:58
+msgid "Delete Image"
+msgstr ""
+"刪除圖片\n"
+
+#: inc/admin/menu/tabs/settings.php:685
+msgid "Delete Master log(s) after"
+msgstr "主日誌在以下時間後刪除"
+
+#: inc/admin/menu/tabs/settings.php:673
+msgid "Delete Master log(s) after X Duration"
+msgstr "主日誌在X時長後刪除"
+
+#: inc/admin/fgf-admin-functions.php:520
+msgid "Delete Permanently"
+msgstr "永久刪除"
+
+#: inc/admin/menu/tabs/settings.php:669
+msgid "Deletion Settings"
+msgstr "刪除設定"
+
+#: inc/admin/menu/views/add-new-rule.php:42
+#: inc/admin/menu/views/edit-rule.php:43
+#: inc/admin/menu/views/shortcode/html-common-shortcode-content.php:19
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:167
+msgid "Description"
+msgstr ""
+"描述\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:30
+msgid "Different Products"
+msgstr ""
+"不同商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:39
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:66
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:89
+msgid "Disable"
+msgstr "停用"
+
+#: inc/admin/menu/tabs/settings.php:40
+msgid "Display"
+msgstr "顯示"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:229
+msgid "Display all the selected products"
+msgstr "顯示所有已選產品"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:224
+msgid ""
+"Display all the selected products: All the selected products will be "
+"displayed for the customer's selection. Display only the same product: The "
+"same bought product(s) only will be displayed for the customer's section. "
+msgstr "顯示所有已選產品：所有已選產品將顯示供顧客選擇。僅顯示同款產品：僅顯示顧客購買的同款產品供其選擇。"
+
+#: inc/admin/menu/tabs/settings.php:402
+msgid "Display Controls"
+msgstr "顯示控制"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:25
+msgid "Display Free Gift Eligibility Notice in Cart for this Rule"
+msgstr "為此規則在購物車中顯示贈品資格通知"
+
+#: inc/admin/menu/tabs/settings.php:525
+msgid "Display Free Gifts Notice in Checkout Page"
+msgstr "在結帳頁面顯示贈品通知"
+
+#: inc/admin/menu/tabs/settings.php:592
+msgid "Display Gift Product selection Progress Bar in the Cart"
+msgstr "在購物車中顯示贈品選擇進度條"
+
+#: inc/admin/menu/tabs/settings.php:599
+msgid "Display Gift Product selection Progress Bar in the Checkout"
+msgstr "在結帳頁面顯示贈品選擇進度條"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:230
+msgid "Display only the same product"
+msgstr "僅顯示同款產品"
+
+#: inc/admin/menu/tabs/settings.php:395
+msgid "Display Pagination"
+msgstr "顯示分頁"
+
+#: inc/admin/menu/tabs/settings.php:458
+msgid "Display product name and image"
+msgstr "顯示產品名稱和圖片"
+
+#: inc/admin/menu/tabs/settings.php:457
+msgid "Display product name only"
+msgstr "僅顯示產品名稱"
+
+#: inc/admin/fgf-admin-functions.php:628
+msgid "Display the current Cart Order Total"
+msgstr "顯示目前購物車訂單總計"
+
+#: inc/admin/fgf-admin-functions.php:640
+msgid "Display the current Cart Quantity"
+msgstr "顯示目前購物車商品數量"
+
+#: inc/admin/fgf-admin-functions.php:632
+msgid "Display the current Cart Sub-Total"
+msgstr "顯示目前購物車小計"
+
+#: inc/admin/fgf-admin-functions.php:636
+msgid ""
+"Display the current sum of all Product Prices plus applicable Taxes that "
+"belong to a particular category in the cart"
+msgstr "在購物車中顯示特定分類商品價格總和及適用稅金"
+
+#: inc/admin/fgf-admin-functions.php:644
+msgid "Display the number of product(s) available in the current cart"
+msgstr "顯示目前購物車中商品的數量"
+
+#: inc/admin/menu/tabs/shortcodes.php:79
+msgid "Displays gifts products based on the cart contents"
+msgstr "根據購物車內容顯示贈品商品"
+
+#: inc/admin/menu/tabs/shortcodes.php:83
+msgid "Displays the cart eligible notices based on cart contents."
+msgstr "根據購物車內容顯示符合條件的提示訊息"
+
+#: inc/admin/menu/tabs/shortcodes.php:87
+msgid "Displays the progress bar of gift products count"
+msgstr ""
+"顯示贈品數量進度條\n"
+
+#: inc/admin/menu/tabs/settings.php:200
+msgid "Don't display price"
+msgstr ""
+"不顯示價格\n"
+
+#: inc/admin/fgf-admin-functions.php:516
+msgid "Duplicate"
+msgstr ""
+"複製\n"
+
+#: inc/admin/fgf-admin-functions.php:504
+msgid "Edit"
+msgstr ""
+"編輯\n"
+
+#: inc/admin/menu/views/edit-rule.php:11
+msgid "Edit Rule"
+msgstr ""
+"編輯規則\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:13
+msgid "Eligibility Notice Configuration"
+msgstr ""
+"資格通知設定\n"
+
+#: inc/admin/menu/tabs/settings.php:539
+msgid "Eligible Notices Settings"
+msgstr ""
+"符合資格通知設定\n"
+
+#: inc/admin/menu/tabs/settings.php:749
+msgid "Email Settings"
+msgstr ""
+"電子郵件設定\n"
+
+#: inc/admin/menu/tabs/settings.php:753
+msgid "Email Type"
+msgstr ""
+"電子郵件類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:38
+msgid "Enable"
+msgstr ""
+"啟用\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:67
+msgid "Enable - For Registered Users Only"
+msgstr ""
+"啟用 - 僅限已註冊使用者\n"
+
+#: inc/admin/menu/tabs/settings.php:786
+msgid "Enable/Disable"
+msgstr ""
+"啟用/停用\n"
+
+#: inc/admin/menu/tabs/settings.php:1039
+msgid "Error Messages"
+msgstr ""
+"錯誤訊息\n"
+
+#: inc/admin/menu/tabs/shortcodes.php:60
+#: inc/admin/menu/views/html-shortcodes-info.php:24
+msgid "Example"
+msgstr ""
+"範例\n"
+
+#: inc/compatibility/class-wc-brands.php:255
+msgid "Exclude Brands"
+msgstr ""
+"排除品牌\n"
+
+#: inc/fgf-default-functions.php:119
+msgid "Exclude Categories"
+msgstr ""
+"排除分類\n"
+
+#: inc/compatibility/class-woocommerce-b2b.php:70
+msgid "Exclude Group(s)"
+msgstr ""
+"排除群組\n"
+
+#: inc/fgf-default-functions.php:116
+msgid "Exclude Product(s)"
+msgstr ""
+"排除產品\n"
+
+#: inc/fgf-default-functions.php:87
+msgid "Exclude User Role(s)"
+msgstr ""
+"排除使用者角色\n"
+
+#: inc/fgf-default-functions.php:85
+msgid "Exclude User(s)"
+msgstr ""
+"排除使用者\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:287
+msgid "Filter"
+msgstr ""
+"篩選\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:560
+msgid "Filter Applicable Category Mode."
+msgstr ""
+"篩選適用分類模式\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:537
+msgid "Filter Applicable Product Mode."
+msgstr ""
+"篩選適用產品模式\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:577
+msgid "Filter Exclude Category IDs."
+msgstr ""
+"篩選條件：排除分類ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:554
+msgid "Filter Exclude Product IDs."
+msgstr ""
+"篩選條件：排除產品ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:514
+msgid "Filter Exclude User IDs."
+msgstr ""
+"篩選條件：排除使用者ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:526
+msgid "Filter Exclude User Roles."
+msgstr ""
+"篩選條件：排除使用者角色\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:572
+msgid "Filter Include Category  Product Count."
+msgstr ""
+"篩選條件：包含分類產品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:566
+msgid "Filter Include Category IDs."
+msgstr ""
+"篩選條件：包含分類ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:549
+msgid "Filter Include Product Count."
+msgstr ""
+"篩選條件：包含產品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:543
+msgid "Filter Include Product IDs."
+msgstr ""
+"篩選條件：包含產品ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:508
+msgid "Filter Include User IDs."
+msgstr ""
+"篩選條件：包含使用者ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:520
+msgid "Filter Include User Roles."
+msgstr ""
+"篩選條件：包含使用者角色\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:583
+msgid "Filter Virtual Product."
+msgstr ""
+"篩選條件：虛擬產品\n"
+
+#: inc/admin/menu/tabs/rules.php:348
+msgid "Filters"
+msgstr ""
+"篩選條件\n"
+
+#: inc/admin/menu/tabs/settings.php:644
+msgid "Footer"
+msgstr ""
+"頁腳\n"
+
+#: inc/wc-blocks/class-fgf-wc-blocks-integration.php:58
+#: inc/wc-blocks/class-fgf-wc-blocks-integration.php:67
+msgid "Foul!"
+msgstr ""
+"錯誤！\n"
+
+#: inc/frontend/class-fgf-cart-handler.php:333
+#: inc/wc-blocks/class-fgf-wc-blocks-store-api.php:169
+#: templates/email/gift-product-details.php:30
+msgid "Free"
+msgstr ""
+"免費\n"
+
+#: inc/class-fgf-coupon.php:29
+msgid "Free Gift"
+msgstr ""
+"免費贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:959
+msgid "Free Gift Checkout Page Notice"
+msgstr ""
+"免費贈品結帳頁面通知\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:213
+msgid "Free Gift has been sent successfully"
+msgstr "免費贈品已發送成功"
+
+#: inc/admin/menu/tabs/settings.php:939
+msgid "Free Gift Notice in Cart/Checkout - Inline Mode"
+msgstr "購物車/結帳頁面的贈品提示訊息 — 行內模式"
+
+#: inc/admin/menu/tabs/settings.php:946
+msgid "Free Gift Notice in Cart/Checkout - Pop-up Mode"
+msgstr "購物車/結帳頁面的贈品提示訊息 — 彈出模式"
+
+#: inc/admin/menu/tabs/settings.php:629
+msgid "Free Gift Product Price"
+msgstr ""
+"贈品商品價格\n"
+
+#: inc/admin/menu/tabs/rules.php:282
+msgid "Free Gift Rules"
+msgstr ""
+"贈品規則\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:13
+msgid "Free Gift Type"
+msgstr ""
+"贈品類型\n"
+
+#: inc/admin/menu/tabs/settings.php:185
+msgid "Free Gift(s) Display Method in the Cart Items Table"
+msgstr "購物車商品表格中贈品的顯示方式"
+
+#: inc/admin/menu/tabs/settings.php:543
+msgid "Free Gift(s) Eligibility Notice Will be Displayed On"
+msgstr ""
+"贈品符合資格通知將顯示於\n"
+
+#: inc/admin/menu/tabs/settings.php:556
+msgid "Free Gift(s) Eligibility Notices Display Type"
+msgstr ""
+"贈品符合資格通知顯示類型\n"
+
+#: inc/admin/menu/class-fgf-menu-management.php:98
+msgid "Free Gifts"
+msgstr ""
+"贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:217
+msgid "Free Gifts display mode in the Cart Page"
+msgstr "購物車頁面中贈品的顯示模式"
+
+#: inc/admin/menu/tabs/settings.php:263
+msgid "Free Gifts display mode in the Checkout Page"
+msgstr ""
+"結帳頁面中的贈品顯示模式\n"
+
+#: inc/admin/menu/tabs/settings.php:229
+msgid "Free Gifts display position in the Cart Page"
+msgstr "購物車頁面中贈品的顯示位置"
+
+#: inc/admin/menu/tabs/settings.php:276
+msgid "Free Gifts display position in the Checkout Page"
+msgstr ""
+"結帳頁面中的贈品顯示位置\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:39
+msgid "Free Gifts Eligibility Notice"
+msgstr ""
+"贈品符合資格通知\n"
+
+#: inc/admin/menu/views/master-log-popup.php:14
+#, php-format
+msgid "Free Gifts for Order #%s"
+msgstr "訂單 #%s 的贈品"
+
+#: inc/privacy/class-fgf-privacy.php:41
+msgid "Free Gifts for WooCommerce"
+msgstr ""
+"WooCommerce 贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:513
+msgid "Free Gifts Notice Display Type"
+msgstr ""
+"贈品通知顯示類型\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:275
+#: inc/class-fgf-manual-gift-order-handler.php:53
+#: inc/class-fgf-order-handler.php:62
+#: inc/frontend/class-fgf-cart-handler.php:88
+msgid "Free Product"
+msgstr ""
+"免費商品\n"
+
+#: inc/admin/fgf-admin-functions.php:484
+msgid "Friday"
+msgstr ""
+"星期五\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:119
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:482
+msgid "From"
+msgstr ""
+"從\n"
+
+#: inc/admin/menu/tabs/settings.php:769
+msgid "From Address"
+msgstr ""
+"寄件地址\n"
+
+#: inc/admin/menu/tabs/settings.php:763
+msgid "From Name"
+msgstr ""
+"寄件名稱\n"
+
+#: inc/admin/menu/tabs/settings.php:638
+msgid "Frontend Scripts Enqueued on"
+msgstr ""
+"前端腳本載入位置\n"
+
+#: inc/admin/menu/tabs/rules.php:330 inc/admin/menu/tabs/settings.php:39
+msgid "General"
+msgstr ""
+"一般\n"
+
+#: inc/admin/menu/tabs/settings.php:67 inc/admin/menu/tabs/settings.php:181
+msgid "General Settings"
+msgstr ""
+"一般設定\n"
+
+#: inc/admin/menu/views/shortcode/html-shortcodes.php:13
+msgid "General Syntax"
+msgstr ""
+"一般語法\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:184
+msgid "Get Category"
+msgstr ""
+"取得分類\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:266
+msgid "Get Category IDs."
+msgstr ""
+"取得分類 ID\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:223
+msgid "Get Product Awarding method"
+msgstr ""
+"取得商品獲取方式\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:274
+msgid "Get Product Consider Type."
+msgstr ""
+"取得商品考量類型\n"
+
+#: inc/admin/menu/tabs/rules.php:597
+msgid "Get Product count cannot be empty."
+msgstr ""
+"商品數量不得為空\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:284
+msgid "Get Product Count."
+msgstr ""
+"取得商品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:258
+msgid "Get Product IDs."
+msgstr ""
+"取得商品 ID\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:210
+msgid "Get Product Quantity Restriction is Applicable"
+msgstr ""
+"適用商品數量限制\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:253
+msgid "Get Product Type."
+msgstr ""
+"取得商品類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:166
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:568
+msgid "Get Product(s)"
+msgstr ""
+"取得商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:151
+msgid "Get Product(s) Configuration"
+msgstr ""
+"取得商品設定\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:244
+msgid "Get Quantity"
+msgstr ""
+"取得數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:194
+msgid "Gift Category IDs."
+msgstr ""
+"贈品分類 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:389
+msgid "Gift Count per Order."
+msgstr "每筆訂單的贈品數量"
+
+#: inc/admin/menu/tabs/settings.php:844
+msgid "Gift Product Add to Cart Button Label"
+msgstr ""
+"贈品加入購物車按鈕標籤\n"
+
+#: inc/admin/menu/tabs/settings.php:464
+msgid "Gift Product Add to Cart Method"
+msgstr ""
+"贈品加入購物車方式\n"
+
+#: inc/admin/menu/tabs/settings.php:451
+msgid "Gift product display when choosing select-box"
+msgstr ""
+"使用下拉選單選擇時的贈品顯示\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:186
+msgid "Gift Product IDs."
+msgstr ""
+"贈品商品 ID\n"
+
+#: inc/admin/menu/tabs/settings.php:438
+msgid "Gift Product Name Display Method"
+msgstr ""
+"贈品名稱顯示方式\n"
+
+#: inc/admin/menu/tabs/settings.php:1043
+msgid "Gift Product not selected in the Select Box(Dropdown) Display"
+msgstr ""
+"下拉選單中未選取的贈品顯示\n"
+
+#: inc/admin/menu/tabs/settings.php:850
+msgid "Gift Product Selection Label - Select Box(Dropdown)"
+msgstr ""
+"贈品選擇標籤 - 下拉選單\n"
+
+#: inc/admin/menu/tabs/settings.php:834
+msgid "Gift Product Selection Localization"
+msgstr ""
+"贈品選擇本地化\n"
+
+#: inc/admin/menu/tabs/settings.php:588
+msgid "Gift Product selection Progress Bar Display Settings"
+msgstr ""
+"贈品選擇進度條顯示設定\n"
+
+#: inc/admin/menu/tabs/settings.php:838
+msgid "Gift Product Selection Section Heading"
+msgstr ""
+"贈品選擇區塊標題\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:154
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:24
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:99
+msgid "Gift Product Selection Type"
+msgstr ""
+"贈品選擇類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:23
+msgid "Gift Product Type"
+msgstr ""
+"贈品類型\n"
+
+#: inc/admin/menu/tabs/settings.php:195
+msgid "Gift Product's Original Price display method"
+msgstr ""
+"贈品原價顯示方式\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:528
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:541
+msgid "Gift Product(s)"
+msgstr ""
+"贈品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:43
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:21
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:96
+msgid "Gift Product(s) Configuration"
+msgstr ""
+"贈品設定\n"
+
+#: inc/admin/menu/tabs/settings.php:1049
+msgid "Gift Product(s) removed if the criteria don't matched"
+msgstr ""
+"若不符合條件將移除贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:310
+msgid "Gift Products Display Settings"
+msgstr ""
+"贈品顯示設定\n"
+
+#: inc/admin/menu/tabs/settings.php:314
+msgid "Gift Products Display Type"
+msgstr ""
+"贈品顯示類型\n"
+
+#: inc/admin/menu/tabs/settings.php:348
+msgid "Gift Products Per Page - Desktop"
+msgstr ""
+"每頁顯示贈品數量 - 桌機版\n"
+
+#: inc/admin/menu/tabs/settings.php:369
+msgid "Gift Products Per Page - Mobile"
+msgstr ""
+"每頁顯示贈品數量 - 手機版\n"
+
+#: inc/admin/menu/tabs/settings.php:359
+msgid "Gift Products Per Page - Tablet"
+msgstr ""
+"每頁顯示贈品數量 - 平板版\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:68
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:161
+msgid "Gift Quantity Configuration"
+msgstr ""
+"贈品數量設定\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:260
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:172
+msgid "Gift Repeating Configuration"
+msgstr ""
+"贈品重複設定\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:181
+msgid "Gift Type."
+msgstr ""
+"贈品類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:169
+msgid "Global Level"
+msgstr ""
+"全域層級\n"
+
+#: inc/admin/menu/tabs/settings.php:92
+msgid "Global Settings"
+msgstr ""
+"全域設定\n"
+
+#: inc/admin/menu/tabs/settings.php:96
+msgid ""
+"Global Settings - The Maximum Gifts Restriction applies for all rules. Rule "
+"Settings - The Maximum Gifts Restriction can be set on each rule."
+msgstr ""
+"全域設定 - 最大贈品限制適用於所有規則。規則設定 - 可針對每個規則單獨設定最大贈品限制。\n"
+
+#: inc/admin/menu/tabs/settings.php:191
+msgid "Grouped & displayed at the Bottom of the Table"
+msgstr ""
+"群組並顯示於表格底部\n"
+
+#: inc/admin/fgf-admin-functions.php:194
+msgid "Guest"
+msgstr ""
+"訪客\n"
+
+#: inc/admin/menu/tabs/settings.php:643
+msgid "Header"
+msgstr ""
+"標頭\n"
+
+#: inc/admin/menu/tabs/settings.php:334
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:31
+msgid "Hide"
+msgstr ""
+"隱藏\n"
+
+#: inc/admin/menu/tabs/settings.php:71
+msgid "Hide Free Gift Products on Shop and Category Pages"
+msgstr ""
+"在商店與分類頁隱藏贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:758
+msgid "HTML"
+msgstr ""
+"HTML\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:203
+#: inc/rest-api/class-fgf-rest-posts-controller.php:301
+msgid "ID is invalid."
+msgstr ""
+"ID 無效\n"
+
+#: inc/admin/menu/tabs/settings.php:682
+msgid ""
+"If \"Yes\" is selected, Master log entries will be removed after a specific "
+"duration."
+msgstr ""
+"若選擇「是」，主記錄將在特定時間後被刪除\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:26
+msgid ""
+"If left empty / when the rule value is more the Global Restriction, the "
+"Global Restriction will apply."
+msgstr ""
+"若留空 / 規則值超過全域限制，將套用全域限制\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:115
+msgid "If left empty, the rule will be valid on all days."
+msgstr ""
+"若留空，規則將適用於所有天數\n"
+
+#: inc/admin/menu/tabs/settings.php:659
+msgid ""
+"If you are facing any issues (display issues in mini cart, sliders, "
+"incorrect URL redirection) when free gifts are added, then select \"Yses\" "
+"option and check."
+msgstr ""
+"若新增贈品時遇到問題（迷你購物車顯示問題、滑動功能、錯誤的網址導向），請選擇「是」並檢查\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:48
+msgid "Image/Icon for Eligibility Notice"
+msgstr ""
+"符合資格通知的圖片/圖示\n"
+
+#: inc/fgf-default-functions.php:29
+msgid "In-active"
+msgstr ""
+"未啟用\n"
+
+#: inc/class-fgf-register-post-status.php:101
+msgid "Inactive"
+msgstr ""
+"停用\n"
+
+#: inc/compatibility/class-wc-brands.php:254
+msgid "Include Brands"
+msgstr ""
+"包含品牌\n"
+
+#: inc/fgf-default-functions.php:118
+msgid "Include Categories"
+msgstr ""
+"包含分類\n"
+
+#: inc/compatibility/class-woocommerce-b2b.php:69
+msgid "Include Group(s)"
+msgstr ""
+"包含群組\n"
+
+#: inc/fgf-default-functions.php:115
+msgid "Include Product(s)"
+msgstr ""
+"包含商品\n"
+
+#: inc/fgf-default-functions.php:86
+msgid "Include User Role(s)"
+msgstr ""
+"包含使用者角色\n"
+
+#: inc/fgf-default-functions.php:84
+msgid "Include User(s)"
+msgstr ""
+"包含使用者\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:73
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:56
+msgid "Including Sub-category Product(s)"
+msgstr ""
+"包含子分類商品\n"
+
+#: inc/admin/menu/tabs/settings.php:222 inc/admin/menu/tabs/settings.php:268
+msgid "Inline"
+msgstr "內嵌"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:149
+msgid "Invalid ID"
+msgstr ""
+"ID 無效\n"
+"\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:195
+#: inc/admin/class-fgf-admin-ajax.php:231
+#: inc/admin/class-fgf-admin-ajax.php:236
+#: inc/admin/class-fgf-admin-ajax.php:353
+#: inc/admin/class-fgf-admin-ajax.php:389
+#: inc/admin/class-fgf-admin-ajax.php:416
+#: inc/admin/class-fgf-admin-ajax.php:451
+msgid "Invalid Request"
+msgstr ""
+"請求無效\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:173
+msgid "Last Modified Date"
+msgstr ""
+"最後修改日期\n"
+
+#: inc/admin/menu/views/html-cron-info.php:13
+msgid "Last Updated"
+msgstr ""
+"最後更新\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:280
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:193
+msgid "Limited"
+msgstr ""
+"受限\n"
+
+#: inc/admin/class-fgf-admin-assets.php:145
+msgid "Loading more results&hellip;"
+msgstr ""
+"載入更多結果…\n"
+
+#: inc/admin/menu/tabs/settings.php:45
+msgid "Localization"
+msgstr ""
+"本地化\n"
+
+#: inc/admin/fgf-admin-functions.php:322 inc/admin/menu/tabs/settings.php:470
+#: inc/admin/menu/views/master-log-popup.php:44
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:286
+#: inc/class-fgf-register-post-status.php:128
+msgid "Manual"
+msgstr ""
+"手動\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:25
+#: inc/admin/menu/tabs/settings.php:1002
+msgid "Manual Gift"
+msgstr ""
+"手動贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:782
+msgid "Manual Gift Email"
+msgstr ""
+"手動贈品郵件\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:39
+msgid "Manual Gift Settings"
+msgstr ""
+"手動贈品設定\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:18
+msgid "Manual Gifts"
+msgstr ""
+"手動贈品\n"
+
+#: inc/admin/menu/tabs/master-logs.php:25
+#: inc/admin/menu/tabs/master-logs.php:39
+#: inc/class-fgf-register-post-types.php:109
+msgid "Master Log"
+msgstr ""
+"主記錄\n"
+
+#: inc/admin/menu/tabs/settings.php:1077
+msgid "Master Log Deletion Cron"
+msgstr ""
+"主記錄刪除排程\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:109
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:125
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:141
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:105
+msgid "Max"
+msgstr ""
+"最大值\n"
+
+#: inc/admin/menu/tabs/settings.php:896
+msgid "Maximum Gift Count Label"
+msgstr ""
+"最大贈品數標籤\n"
+
+#: inc/admin/menu/tabs/settings.php:99
+msgid "Maximum Gifts in an Order"
+msgstr ""
+"每筆訂單的最大贈品數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:25
+msgid "Maximum Gifts in an Order from this Rule"
+msgstr ""
+"此規則的每筆訂單最大贈品數量\n"
+
+#: inc/admin/menu/tabs/settings.php:87
+msgid ""
+"Maximum Number of Gift Products in \"Manual Rule Type\" is decided based on"
+msgstr ""
+"「手動規則類型」中的最大贈品數量取決於\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:37
+msgid "Maximum Number of Orders"
+msgstr "最大訂單數量"
+
+#: inc/admin/menu/tabs/settings.php:800
+msgid "Message"
+msgstr "訊息"
+
+#: inc/admin/menu/tabs/settings.php:985
+msgid ""
+"Message - If the criteria don't match to Gift the Product / the cart is empty"
+msgstr "訊息 — 當條件不符合贈品規則或購物車為空時顯示"
+
+#: inc/admin/menu/tabs/settings.php:46
+msgid "Messages"
+msgstr ""
+"訊息\n"
+"\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:105
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:121
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:137
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:101
+msgid "Min"
+msgstr ""
+"最小值\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:242
+#: inc/compatibility/views/html-rule-product-brand-filters.php:44
+msgid "Minimum Quantity"
+msgstr ""
+"最小數量\n"
+
+#: inc/admin/menu/tabs/rules.php:660
+msgid "Minimum Quantity field cannot be empty."
+msgstr ""
+"最小數量欄位不能為空\n"
+
+#: inc/admin/fgf-admin-functions.php:480
+msgid "Monday"
+msgstr ""
+"星期一\n"
+
+#: inc/admin/menu/tabs/settings.php:693
+msgid "Month(s)"
+msgstr ""
+"月\n"
+
+#: inc/admin/menu/tabs/settings.php:561
+msgid "Multiple Notices Display"
+msgstr ""
+"多重通知顯示\n"
+
+#: inc/admin/menu/tabs/settings.php:416
+msgid "Navigation Next Text"
+msgstr ""
+"導覽下一步文字\n"
+
+#: inc/admin/menu/tabs/settings.php:409
+msgid "Navigation Previous Text"
+msgstr ""
+"導覽上一步文字\n"
+
+#: inc/admin/menu/views/add-new-rule.php:11
+msgid "New Free Gift Rule"
+msgstr ""
+"新增贈品規則\n"
+
+#: inc/admin/menu/tabs/rules.php:394
+msgid "New Rule has been created successfuly"
+msgstr ""
+"新規則已成功建立\n"
+
+#: inc/admin/menu/tabs/settings.php:256 inc/admin/menu/tabs/settings.php:484
+#: inc/admin/menu/tabs/settings.php:655 inc/admin/menu/tabs/settings.php:679
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:77
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:181
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:60
+msgid "No"
+msgstr ""
+"否\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:163
+msgid "No Coupon found"
+msgstr ""
+"未找到優惠券\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:122
+msgid "No Customer found"
+msgstr ""
+"未找到客戶\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:216
+msgid "No master log to show."
+msgstr ""
+"沒有可顯示的主記錄\n"
+
+#: inc/admin/class-fgf-admin-assets.php:138
+msgid "No matches found"
+msgstr ""
+"未找到相符項目\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:58
+msgid "No Products found"
+msgstr ""
+"未找到商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:90
+msgid "No Purchase History Available Case Only"
+msgstr ""
+"無可用購買紀錄案例\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:225
+msgid "No rule to show."
+msgstr ""
+"沒有可顯示的規則\n"
+
+#: inc/admin/menu/tabs/rules.php:353
+msgid "Notice"
+msgstr ""
+"通知\n"
+
+#: inc/admin/menu/tabs/settings.php:509
+msgid "Notice Display Settings"
+msgstr ""
+"通知顯示設定\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:598
+msgid "Notice Image ID."
+msgstr ""
+"通知圖片 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:593
+msgid "Notice."
+msgstr ""
+"通知\n"
+
+#: inc/admin/menu/tabs/settings.php:41
+msgid "Notices"
+msgstr ""
+"通知\n"
+
+#: inc/admin/menu/tabs/settings.php:44
+msgid "Notifications"
+msgstr ""
+"提醒\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:74
+msgid "Number of Order(s) per User"
+msgstr "每位使用者的訂單數量"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:132
+msgid "Number of Products in the Cart"
+msgstr "購物車中的商品數量"
+
+#: inc/admin/menu/tabs/settings.php:387
+msgid "Number of Products to Slide During Navigation"
+msgstr ""
+"導覽時滑動的商品數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:216
+msgid "On All the Eligible Products Separately"
+msgstr "於所有符合資格的商品上分開套用"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:211
+msgid ""
+"On All the Eligible Products Separately: Restriction is applicable "
+"separately for each product selected in Get Products. Across the Eligible "
+"Products: Restriction is applicable on the Total Quantity of Get Products "
+"added in the cart."
+msgstr ""
+"對每個符合條件的商品單獨計算：限制將單獨應用於『取得商品』中選取的每個商品。\n"
+"跨所有符合條件的商品：限制將應用於購物車中『取得商品』的總數量。"
+
+#: inc/fgf-default-functions.php:235
+msgid "One product from each Brand must be in cart"
+msgstr "購物車中必須至少包含每個品牌的一件商品。"
+
+#: inc/fgf-default-functions.php:205
+msgid "One product from each category must be in cart"
+msgstr "購物車中必須至少包含每個分類的一件商品。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:107
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:37
+msgid "One Product from each selected category must be in the cart"
+msgstr "購物車中必須至少包含每個所選分類的一件商品。"
+
+#: inc/admin/menu/tabs/settings.php:444
+msgid "Only Product Name"
+msgstr "僅商品名稱"
+
+#: inc/fgf-default-functions.php:236
+msgid "Only products from the selected Brand(s) should be in cart"
+msgstr "購物車中只能包含所選品牌的商品。"
+
+#: inc/fgf-default-functions.php:206
+msgid "Only products from the selected category should be in cart"
+msgstr "購物車中只能包含所選分類的商品。"
+
+#: inc/fgf-default-functions.php:176
+msgid "Only the selected Product(s) must be in cart"
+msgstr "購物車中只能包含所選的商品。"
+
+#: inc/fgf-default-functions.php:147
+msgid "Only Virtual Products"
+msgstr "僅虛擬產品"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:32
+msgid "OR"
+msgstr "或"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:165
+msgid "Order Id"
+msgstr ""
+"訂單ID\n"
+
+#: inc/admin/menu/tabs/settings.php:190
+msgid "Order in which they get added"
+msgstr ""
+"添加順序\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:60
+msgid "Order Restriction per User"
+msgstr ""
+"每位用戶的訂單限制\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:21
+msgid "Order Restrictions"
+msgstr ""
+"訂單限制\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:73
+msgid "Order Status"
+msgstr ""
+"訂單狀態\n"
+
+#: inc/fgf-default-functions.php:54
+msgid "Order Total"
+msgstr "訂單總額"
+
+#: inc/admin/class-fgf-admin-ajax.php:459
+msgid "Order usage count reset successfully"
+msgstr "訂單使用次數重置成功"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:49
+#, php-format
+msgid "Orders (%1$s used %2$d remaining)"
+msgstr "訂單(%1$s 使用 %2$d 剩余)"
+
+#: inc/admin/menu/views/master-log-popup.php:29
+#: templates/email/gift-product-details.php:18
+msgid "Original Price"
+msgstr "原價"
+
+#: inc/admin/menu/tabs/settings.php:327
+msgid "Pagination Display"
+msgstr "分頁顯示"
+
+#: inc/admin/menu/tabs/settings.php:340
+msgid "Pagination to Display Gift Products"
+msgstr "用於顯示贈品的分頁"
+
+#: inc/admin/menu/views/shortcode/html-example-shortcode-content.php:16
+msgid "Paramaters"
+msgstr "參數"
+
+#: inc/admin/menu/views/shortcode/html-common-shortcode-content.php:18
+msgid "Parameter Support"
+msgstr ""
+"參數支援\n"
+
+#: inc/admin/menu/views/html-shortcodes-info.php:33
+#: inc/admin/menu/views/shortcode/html-parameters-shortcode-content.php:16
+msgid "Parameters"
+msgstr ""
+"參數\n"
+
+#: inc/admin/menu/tabs/shortcodes.php:59
+msgid "Parameters Value"
+msgstr ""
+"參數值\n"
+
+#: inc/admin/class-fgf-admin-assets.php:142
+msgid "Please delete %qty% characters"
+msgstr ""
+"請刪除 %qty% 個字元\n"
+
+#: inc/admin/class-fgf-admin-assets.php:141
+msgid "Please delete 1 character"
+msgstr "請刪除 1 個字元"
+
+#: inc/admin/class-fgf-admin-assets.php:140
+msgid "Please enter %qty% or more characters"
+msgstr "請輸入%qty%或更多字符"
+
+#: inc/admin/class-fgf-admin-assets.php:139
+msgid "Please enter 1 or more characters"
+msgstr ""
+"請輸入 1 個或更多字元\n"
+
+#: inc/admin/menu/tabs/rules.php:552
+msgid "Please enter the limit"
+msgstr ""
+"請輸入限制值\n"
+
+#: inc/admin/menu/tabs/rules.php:57
+msgid ""
+"Please make sure the products you select as free gifts have been published "
+"and are currently In-stock."
+msgstr ""
+"請確保您選擇的贈品商品已發佈並且目前有庫存\n"
+
+#: inc/admin/menu/tabs/rules.php:536
+msgid "Please provide the value for subtotal price"
+msgstr ""
+"請提供小計金額的值\n"
+
+#: inc/admin/menu/tabs/rules.php:532
+msgid "Please select a category"
+msgstr ""
+"請選擇一個分類\n"
+
+#: inc/admin/menu/tabs/rules.php:559
+msgid "Please select a coupon"
+msgstr ""
+"請選擇一個優惠券\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:199
+msgid "Please select a User"
+msgstr ""
+"請選擇一位使用者\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:241
+#: inc/admin/class-fgf-admin-assets.php:109
+msgid "Please select at least one product to add as Gift item"
+msgstr ""
+"請至少選擇一個商品作為贈品\n"
+
+#: inc/compatibility/class-wc-brands.php:320
+msgid "Please select atleast one Brand"
+msgstr ""
+"請至少選擇一個品牌\n"
+
+#: inc/compatibility/class-wc-brands.php:272
+#: inc/compatibility/class-wc-brands.php:281
+#: inc/compatibility/class-wc-brands.php:286
+#: inc/compatibility/class-wc-brands.php:299
+#: inc/compatibility/class-wc-brands.php:307
+msgid "Please select atleast one brand"
+msgstr ""
+"請至少選擇一個品牌\n"
+
+#: inc/compatibility/class-wc-brands.php:294
+msgid "Please select atleast one brand for total type"
+msgstr ""
+"請至少為總類型選擇一個品牌\n"
+
+#: inc/admin/menu/tabs/rules.php:646
+msgid "Please select atleast one Category"
+msgstr ""
+"請至少選擇一個分類\n"
+
+#: inc/admin/menu/tabs/rules.php:544 inc/admin/menu/tabs/rules.php:624
+msgid "Please select atleast one category"
+msgstr ""
+"請至少選擇一個分類\n"
+
+#: inc/admin/menu/tabs/rules.php:578
+msgid "Please select atleast one Category for buy product"
+msgstr ""
+"請至少為購買商品選擇一個分類\n"
+
+#: inc/admin/menu/tabs/rules.php:585
+msgid "Please select atleast one Category for get product"
+msgstr ""
+"請至少為獲取商品選擇一個分類\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:203 inc/admin/menu/tabs/rules.php:644
+msgid "Please select atleast one Product"
+msgstr ""
+"請至少選擇一個商品\n"
+
+#: inc/admin/menu/tabs/rules.php:540 inc/admin/menu/tabs/rules.php:542
+#: inc/admin/menu/tabs/rules.php:563 inc/admin/menu/tabs/rules.php:612
+#: inc/admin/menu/tabs/rules.php:626
+msgid "Please select atleast one product"
+msgstr ""
+"請至少選擇一個商品\n"
+
+#: inc/admin/menu/tabs/rules.php:576
+msgid "Please select atleast one Product for buy product"
+msgstr ""
+"請至少為購買商品選擇一個商品\n"
+
+#: inc/admin/menu/tabs/rules.php:583 inc/admin/menu/tabs/rules.php:587
+msgid "Please select atleast one Product for get product"
+msgstr ""
+"請至少為獲取商品選擇一個商品\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:279
+msgid "Please select the valid product(s) to proceed"
+msgstr ""
+"請選擇有效的商品以繼續\n"
+
+#: inc/admin/menu/tabs/settings.php:104
+msgid ""
+"Please set any value as per your need in the Maximum Gifts in an Order field "
+"to proceed furthermore"
+msgstr "請根據您的需求，在「訂單中最大贈品數量」欄位中設定任意數值，以繼續後續操作"
+
+#: inc/admin/menu/class-fgf-menu-management.php:71
+msgid ""
+"Please set any value as per your need in the Maximum Gifts in an Order field "
+"to proceed furthermore."
+msgstr "請根據您的需求，在「訂單中最大贈品數量」欄位中設定任意數值，以繼續後續操作。"
+
+#: inc/admin/menu/tabs/settings.php:519
+msgid "Plugin's Own Notice"
+msgstr ""
+"外掛內建通知\n"
+
+#: inc/compatibility/class-wc-points-rewards.php:73
+msgid "Points Earned"
+msgstr ""
+"獲得積分\n"
+
+#: inc/admin/menu/tabs/settings.php:223 inc/admin/menu/tabs/settings.php:269
+msgid "Pop-Up"
+msgstr "彈出"
+
+#: inc/admin/menu/tabs/settings.php:953
+msgid "Popup Link Shortcode Label"
+msgstr ""
+"彈出視窗連結短代碼標籤\n"
+
+#: inc/admin/menu/tabs/settings.php:596
+msgid ""
+"Positioning will work only for block based cart page. For positioning in "
+"block based cart page, edit the cart page and move the \"Progress bar\" "
+"block as per your needs."
+msgstr ""
+"此定位設定僅適用於區塊（block）生成的購物車頁面。若要調整位置，請編輯購物車頁面並將『進度條（Progress Bar）』區塊移動到你需要的位置。"
+
+#: inc/admin/menu/tabs/settings.php:603
+msgid ""
+"Positioning will work only for block based checkout page. For positioning in "
+"block based checkout page, edit the checkout page and move the \"Progress "
+"bar\" block as per your needs."
+msgstr ""
+"定位僅適用於區塊式結帳頁面。若要在區塊式結帳頁面定位，請編輯結帳頁面並依需求移動「進度條」區塊。\n"
+
+#: inc/admin/menu/tabs/settings.php:237
+msgid ""
+"Positioning will work only for shortcode based cart page. For positioning in "
+"block based cart page, edit the cart page and move the \"Free Gifts\" block "
+"as per your needs."
+msgstr "此定位設定僅適用於以短代碼生成的購物車頁面。若是在區塊（block）生成的購物車頁面，請編輯購物車頁面並將『贈品』區塊移動到你需要的位置。"
+
+#: inc/admin/menu/tabs/settings.php:286
+msgid ""
+"Positioning will work only for shortcode based checkout page. For "
+"positioning in block based checkout page, edit the checkout page and move "
+"the \"Free Gifts\" block as per your needs."
+msgstr ""
+"定位僅適用於短代碼式結帳頁面。若要在區塊式結帳頁面定位，請編輯結帳頁面並依需求移動「贈品」區塊。\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:169
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:435
+msgid "Preview"
+msgstr "預覽"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:98
+msgid "Previously Purchased Order Count"
+msgstr "之前購買的訂單數量"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:87
+msgid "Price"
+msgstr ""
+"價格\n"
+
+#: inc/admin/fgf-admin-functions.php:114
+msgid "Processing"
+msgstr ""
+"處理中\n"
+
+#: inc/admin/fgf-admin-functions.php:433
+msgid "Product"
+msgstr ""
+"商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:200
+msgid "Product Count"
+msgstr ""
+"商品數量\n"
+
+#: inc/admin/menu/tabs/rules.php:654
+msgid "Product Count cannot be empty."
+msgstr ""
+"商品數量不能為空\n"
+
+#: inc/admin/menu/tabs/rules.php:652
+msgid "Product Count cannot be more than the number of selected products."
+msgstr ""
+"商品數量不可超過已選商品數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:498
+msgid "Product Count Maximum Value."
+msgstr ""
+"商品數量最大值\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:493
+msgid "Product Count Minimum Value."
+msgstr ""
+"商品數量最小值\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:120
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:132
+msgid "Product Filter"
+msgstr ""
+"商品篩選\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:532
+msgid "Product Filter Type."
+msgstr ""
+"商品篩選類型\n"
+
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:25
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:34
+#: inc/fgf-template-functions.php:590
+#: templates/email/gift-product-details.php:16 templates/gift-products.php:36
+msgid "Product Image"
+msgstr ""
+"商品圖片\n"
+
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:24
+#: inc/admin/menu/views/blocks/html-free-gifts-block-preview-template.php:33
+#: inc/admin/menu/views/master-log-popup.php:27
+#: inc/fgf-template-functions.php:589
+#: templates/email/gift-product-details.php:15 templates/gift-products.php:26
+msgid "Product Name"
+msgstr ""
+"商品名稱\n"
+
+#: inc/admin/menu/tabs/settings.php:445
+msgid "Product Name with Hyperlink to Product Page"
+msgstr ""
+"商品名稱附帶商品頁面連結\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:59
+msgid "Product Selection"
+msgstr ""
+"商品選擇\n"
+
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:52
+msgid "Product with least quantity from the selected brand"
+msgstr ""
+"所選品牌中數量最少的商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:122
+msgid "Product with least quantity from the selected category"
+msgstr ""
+"所選分類中數量最少的商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:137
+msgid "Product with least quantity from the selected products"
+msgstr ""
+"所選商品中數量最少的商品\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:589
+msgid "Product(s)"
+msgstr ""
+"商品\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:171
+msgid "Product(s) / Categories"
+msgstr ""
+"商品 / 分類\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:555
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:571
+#: inc/compatibility/class-wc-brands.php:361
+#: inc/compatibility/class-wc-brands.php:380
+msgid "Product(s) of"
+msgstr ""
+"商品的\n"
+
+#: inc/compatibility/class-wc-brands.php:203
+#: inc/compatibility/class-wc-brands.php:229
+msgid "Products from Selected Brands"
+msgstr ""
+"所選品牌的商品\n"
+
+#: inc/admin/fgf-admin-functions.php:376 inc/admin/fgf-admin-functions.php:405
+#: inc/admin/fgf-admin-functions.php:463
+msgid "Products from Selected Categories"
+msgstr ""
+"所選分類的商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:40
+msgid ""
+"Products: The user will receive a Free Gift if they purchase the selected "
+"product. Categories: The user will receive a Free Gift if they purchase any "
+"one product from the selected category."
+msgstr ""
+"商品：使用者購買所選商品時，將獲得贈品。\n"
+"分類：使用者購買所選分類中的任一商品時，將獲得贈品。"
+
+#: inc/admin/menu/tabs/settings.php:42
+msgid "Progress Bar"
+msgstr ""
+"進度條\n"
+
+#: inc/admin/menu/tabs/settings.php:886
+msgid "Progress Bar Localization"
+msgstr ""
+"進度條在地化\n"
+
+#: inc/admin/menu/tabs/settings.php:890
+msgid "Progress Bar's Heading"
+msgstr ""
+"進度條標題\n"
+
+#: inc/admin/menu/views/master-log-popup.php:28
+#: templates/email/gift-product-details.php:17
+msgid "Quantity"
+msgstr ""
+"數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:207
+msgid "Quantity Configuration"
+msgstr ""
+"數量設定\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:71
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:79
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:164
+msgid "Quantity for Selected Free Gift Product(s)"
+msgstr ""
+"所選贈品商品數量\n"
+
+#: inc/admin/menu/tabs/rules.php:548 inc/admin/menu/tabs/rules.php:569
+msgid "Quantity for Selected Free Gift Product(s) cannot be empty"
+msgstr ""
+"所選贈品商品數量不能為空\n"
+
+#: inc/admin/menu/tabs/rules.php:618
+msgid "Quantity for Selected Free Gift Product(s)cannot be empty"
+msgstr ""
+"所選贈品商品數量不能為空\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:488
+msgid "Quantity Maximum Value."
+msgstr ""
+"數量最大值\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:483
+msgid "Quantity Minimum Value."
+msgstr ""
+"數量最小值\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:76
+msgid "Quantity Settings"
+msgstr ""
+"數量設定\n"
+
+#: inc/admin/menu/tabs/settings.php:910
+msgid "Remaining Gift Count Label"
+msgstr ""
+"剩餘贈品數量標籤\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:263
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:175
+msgid "Repeat Gift"
+msgstr ""
+"重複贈品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:273
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:186
+msgid "Repeat Gift Mode"
+msgstr ""
+"重複贈品模式\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:286
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:200
+msgid "Repeat Limit"
+msgstr ""
+"重複限制\n"
+
+#: inc/admin/menu/tabs/rules.php:602
+msgid "Repeat Limit field cannot be empty."
+msgstr ""
+"重複限制欄位不能為空\n"
+
+#: inc/admin/menu/views/html-settings-buttons.php:21
+msgid "Reset"
+msgstr ""
+"重置\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:51
+msgid "Reset used count"
+msgstr ""
+"重置已使用次數\n"
+
+#: inc/admin/menu/tabs/settings.php:154
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:177
+msgid "Restrict Free Gift if WooCommerce Coupon is used"
+msgstr ""
+"若使用 WooCommerce 優惠券則限制贈品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:277
+msgid "Restrict Free Gift(s) if cart contains"
+msgstr "若購物車中包含指定商品，則限制贈品發放。"
+
+#: inc/admin/menu/tabs/settings.php:650
+msgid "Restrict Redirection when Free Gifts are Added"
+msgstr ""
+"新增贈品時限制重導向\n"
+
+#: inc/admin/menu/tabs/settings.php:150
+msgid "Restriction Settings"
+msgstr ""
+"限制設定\n"
+
+#: inc/admin/menu/tabs/rules.php:336
+msgid "Restrictions"
+msgstr ""
+"限制\n"
+
+#: inc/admin/menu/views/master-log-popup.php:30
+msgid "Rule"
+msgstr ""
+"規則\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:409
+msgid "Rule Allowed User Count."
+msgstr ""
+"規則允許的使用者數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:404
+msgid "Rule Allowed User Type."
+msgstr ""
+"規則允許的使用者類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:414
+msgid "Rule Allowed User Usage Details."
+msgstr ""
+"規則允許的使用者使用明細\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:176
+msgid "Rule Consider Type."
+msgstr ""
+"規則考量類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:371
+msgid "Rule From Date."
+msgstr ""
+"規則開始日期\n"
+
+#: inc/admin/menu/tabs/rules.php:398
+msgid "Rule has been updated successfully"
+msgstr ""
+"規則已成功更新\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:170
+msgid "Rule Level"
+msgstr ""
+"規則層級\n"
+
+#: inc/admin/menu/views/add-new-rule.php:33
+#: inc/admin/menu/views/edit-rule.php:34
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:166
+msgid "Rule Name"
+msgstr ""
+"規則名稱\n"
+
+#: inc/admin/menu/tabs/rules.php:509
+msgid "Rule Name is mandatory"
+msgstr ""
+"規則名稱為必填\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:149
+msgid "Rule Name."
+msgstr ""
+"規則名稱\n"
+
+#: inc/admin/menu/views/master-log-popup.php:42
+msgid "Rule not available"
+msgstr ""
+"規則不可用\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:436
+msgid "Rule Restriction by Coupon Type."
+msgstr ""
+"依優惠券類型限制規則\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:441
+msgid "Rule Restriction by Coupon."
+msgstr ""
+"依優惠券限制規則\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:399
+msgid "Rule Restriction Count."
+msgstr ""
+"規則限制次數\n"
+
+#: inc/admin/menu/tabs/settings.php:93
+msgid "Rule Settings"
+msgstr ""
+"規則設定\n"
+
+#: inc/admin/menu/tabs/settings.php:79 inc/admin/menu/views/add-new-rule.php:16
+#: inc/admin/menu/views/edit-rule.php:17
+msgid "Rule Status"
+msgstr ""
+"規則狀態\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:154
+msgid "Rule Status."
+msgstr ""
+"規則狀態\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:376
+msgid "Rule To Date."
+msgstr ""
+"規則結束日期\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:171
+msgid "Rule Type."
+msgstr ""
+"規則類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:394
+msgid "Rule Usage Count."
+msgstr ""
+"規則使用次數\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:431
+msgid "Rule User Purchased Order Maximum Count."
+msgstr ""
+"使用者購買訂單最大數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:426
+msgid "Rule User Purchased Order Minimum Count."
+msgstr ""
+"使用者購買訂單最小數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:421
+msgid "Rule User Purchased Order Type."
+msgstr ""
+"使用者購買訂單類型\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:114
+msgid "Rule Validity"
+msgstr ""
+"規則有效性\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:381
+msgid "Rule Week Days."
+msgstr ""
+"規則適用星期\n"
+
+#: inc/admin/menu/tabs/rules.php:25 inc/class-fgf-register-post-types.php:87
+msgid "Rules"
+msgstr ""
+"規則列表\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:29
+msgid "Same Product"
+msgstr ""
+"同款商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:120
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:135
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:50
+msgid "Same Product's Quantity"
+msgstr ""
+"同款商品數量\n"
+
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:45
+msgid ""
+"Same Product's Quantity: Quantity must match for each product to receive a "
+"free gift. Total Quantity of the Selected Brand's Products: Quantity must "
+"match either for each product or quantity of products that belong to the "
+"selected brand should match to receive a free gift. Product with Least "
+"quantity from the selected brand: The quantity of the product which is least "
+"from the products that belong to the selected brand will be considered for "
+"awarding the free gift."
+msgstr ""
+"同款產品數量：需每款產品數量達標，方可獲得免費贈品。\n"
+"所选品牌產品的總數量：需满足以下任一條件方可獲得免費贈品：要麼每款產品數量達標，要麼所选品牌下的產品總數量達標。\n"
+"所选品牌中數量最少的產品：計算贈品發放資格時，將以所选品牌下數量最少的那款產品的數量為依據。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:115
+msgid ""
+"Same Product's Quantity: Quantity must match for each product to receive a "
+"free gift. Total Quantity of the Selected Category's Products: Quantity must "
+"match either for each product or quantity of products which belong to the "
+"selected category should match to receive a free gift. Product with Least "
+"quantity from the selected category: The quantity of the product which is "
+"least from the products that belongs to the selected category will be "
+"considered for awarding the free gift."
+msgstr ""
+"同款產品數量：需每款產品數量達標，方可獲得免費贈品。\n"
+"所选分類產品的總數量：需满足以下任一條件方可獲得免費贈品：要麼每款產品數量達標，要麼所选分類下的產品總數量達標。\n"
+"所选分類中數量最少的產品：計算贈品發放資格時，將以所选分類下數量最少的那款產品的數量為依據。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:130
+msgid ""
+"Same Product's Quantity: Quantity must match for each product to receive a "
+"free gift. Total Quantity of the Selected Products: Quantity must match "
+"either for each product quantity or combined quantity of the selected "
+"products should match to receive a free gift. Product with Least quantity "
+"from the selected products: The product's quantity which is least from the "
+"selected products will be considered for awarding the free gift."
+msgstr ""
+"同款產品數量：需每款產品數量達標，方可獲得免費贈品。\n"
+"所选產品的總數量：需满足以下任一條件方可獲得免費贈品：要麼每款產品數量達標，要麼所选產品的總數量達標。\n"
+"所选產品中數量最少的產品：計算贈品發放資格時，將以所选產品中數量最少的那款產品的數量為依據。"
+
+#: inc/admin/fgf-admin-functions.php:485
+msgid "Saturday"
+msgstr ""
+"星期六\n"
+
+#: inc/admin/menu/views/html-settings-buttons.php:11
+msgid "Save changes"
+msgstr ""
+"儲存變更\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:34
+msgid "Search a Coupon"
+msgstr ""
+"搜尋優惠券\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:65
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:176
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:59
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:172
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:191
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:49
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:125
+msgid "Search a Product"
+msgstr ""
+"搜尋商品\n"
+
+#: inc/admin/menu/views/html-order-item-add-gift.php:37
+#: inc/admin/menu/views/html-order-item-add-gift.php:70
+msgid "Search a Products"
+msgstr ""
+"搜尋商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:54
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:72
+msgid "Search a User"
+msgstr ""
+"搜尋使用者\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:153
+msgid "Search Master Log"
+msgstr ""
+"搜尋主記錄\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:147
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:148
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+"「%s」搜尋結果\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:154
+msgid "Search Rule"
+msgstr "搜尋規則"
+
+#: inc/admin/class-fgf-admin-assets.php:146
+msgid "Searching&hellip;"
+msgstr ""
+"搜尋中…\n"
+
+#: inc/compatibility/views/html-rule-criteria-brand-total-fields.php:13
+msgid "Select a Brand"
+msgstr ""
+"選擇品牌\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:57
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:40
+msgid "Select a Category"
+msgstr ""
+"選擇分類\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:57
+msgid "Select a Image"
+msgstr ""
+"選擇圖片\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:69
+msgid "Select a Product"
+msgstr ""
+"選擇商品\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:256
+msgid "Select a Rule Type"
+msgstr ""
+"選擇規則類型\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:48
+#: inc/admin/menu/tabs/manual-gifts.php:54
+msgid "Select a user"
+msgstr ""
+"選擇使用者\n"
+
+#: inc/fgf-default-functions.php:146
+msgid "Select an option"
+msgstr ""
+"選擇一個選項\n"
+
+#: inc/admin/menu/tabs/settings.php:321
+msgid "Select Box(Dropdown)"
+msgstr ""
+"下拉選單\n"
+
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:13
+#: inc/compatibility/views/html-rule-get-product-brands-fields.php:13
+#: inc/compatibility/views/html-rule-gift-brands-fields.php:13
+#: inc/compatibility/views/html-rule-product-brand-filters.php:28
+#: inc/compatibility/views/html-rule-product-brand-filters.php:55
+#: inc/compatibility/views/html-rule-subtotal-gift-brands-fields.php:14
+#: inc/compatibility/views/html-rule-subtotal-gift-total-brands-fields.php:13
+msgid "Select Brands"
+msgstr ""
+"選擇品牌\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:226
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:253
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:58
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:134
+msgid "Select Categories"
+msgstr ""
+"選擇分類\n"
+
+#: inc/compatibility/views/html-rule-group-filters.php:11
+#: inc/compatibility/views/html-rule-group-filters.php:27
+msgid "Select Groups"
+msgstr ""
+"選擇群組\n"
+
+#: inc/admin/class-fgf-admin-assets.php:110
+msgid "Select Image"
+msgstr ""
+"選擇圖片\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:46
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:162
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:181
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:37
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:112
+msgid "Select Product(s)"
+msgstr ""
+"選擇商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:24
+msgid "Select the Coupon"
+msgstr ""
+"選擇優惠券\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:81
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:97
+msgid "Select User Role(s)"
+msgstr ""
+"選擇使用者角色\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:45
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:63
+msgid "Select User(s)"
+msgstr ""
+"選擇使用者\n"
+
+#: inc/admin/menu/tabs/settings.php:324
+msgid ""
+"Select whether the Gift Products should be displayed in a Table or Carousel "
+"or Select Box"
+msgstr ""
+"选择赠品应显示为表格、轮播图还是下拉选择框\n"
+
+#: inc/admin/menu/tabs/settings.php:226 inc/admin/menu/tabs/settings.php:273
+msgid "Select Whether the Gift Products should be displayed Inline or Pop-up"
+msgstr ""
+"选择赠品应显示为行内形式还是弹窗形式\n"
+
+#: inc/admin/menu/tabs/settings.php:461
+msgid ""
+"Select whether the Gift Products should be displayed with the product name "
+"only or product name and image in the select-box"
+msgstr ""
+"选择下拉选择框中赠品应仅显示产品名称，还是显示产品名称及图片\n"
+
+#: inc/admin/menu/tabs/settings.php:260
+msgid "Select whether to allow the Free Gifts selection in the checkout page"
+msgstr ""
+"选择是否允许在结账页面选择免费赠品\n"
+
+#: inc/admin/menu/tabs/settings.php:448
+msgid ""
+"Select whether to Display the Gift Product Name as Name Only/Name with "
+"Hyperlink to Product Page"
+msgstr ""
+"选择赠品名称应仅显示为名称，还是显示为带产品页面超链接的名称\n"
+
+#: inc/admin/menu/tabs/settings.php:337
+msgid "Select whether to Display/Hide the Pagination"
+msgstr ""
+"选择分页应显示还是隐藏\n"
+
+#: inc/admin/fgf-admin-functions.php:375 inc/admin/fgf-admin-functions.php:404
+#: inc/admin/fgf-admin-functions.php:462
+msgid "Selected Product(s)"
+msgstr "已选产品"
+
+#: inc/admin/menu/tabs/manual-gifts.php:82
+msgid "Send Gift"
+msgstr ""
+"發送贈品\n"
+
+#: inc/admin/menu/tabs/settings.php:24 inc/class-fgf-install.php:55
+msgid "Settings"
+msgstr ""
+"設定\n"
+
+#: inc/admin/menu/views/shortcode/html-common-shortcode-content.php:17
+#: inc/admin/menu/views/shortcode/html-example-shortcode-content.php:15
+#: inc/admin/menu/views/shortcode/html-example-shortcode-content.php:21
+#: inc/admin/menu/views/shortcode/html-example-shortcode-content.php:26
+msgid "Shortcode"
+msgstr ""
+"短代碼\n"
+
+#: inc/admin/menu/tabs/settings.php:981
+msgid "Shortcode Messages"
+msgstr ""
+"短代碼訊息\n"
+
+#: inc/admin/menu/tabs/shortcodes.php:31
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:74
+#: inc/admin/menu/views/shortcode/html-shortcodes.php:16
+msgid "Shortcodes"
+msgstr ""
+"短代碼列表\n"
+
+#: inc/admin/menu/tabs/settings.php:333
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:32
+msgid "Show"
+msgstr ""
+"顯示\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:588
+msgid "Show Notice."
+msgstr ""
+"顯示通知\n"
+
+#: inc/admin/menu/tabs/settings.php:562
+msgid "Single Notice Display"
+msgstr ""
+"單一通知顯示\n"
+
+#: inc/admin/menu/tabs/settings.php:430
+msgid "Slide Speed in Milliseconds"
+msgstr ""
+"滑動速度（毫秒）\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:99
+msgid "Sorry, you are not allowed to create this resource."
+msgstr ""
+"抱歉，您無權建立此資源\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:133
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+"抱歉，您無權刪除此資源\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:371
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:402
+msgid "Sorry, you are not allowed to edit this item."
+msgstr ""
+"抱歉，您無權編輯此項目\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:116
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr ""
+"抱歉，您無權編輯此資源\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:82
+msgid "Sorry, you cannot list resources."
+msgstr ""
+"抱歉，您無法列出資源\n"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:67
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+"抱歉，您無法查看此資源\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:178
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:501
+msgid "Sort"
+msgstr ""
+"排序\n"
+
+#: inc/admin/menu/tabs/settings.php:379
+msgid "Space Between Products in Carousel in Pixels"
+msgstr ""
+"輪播中商品間距（像素）\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:91
+msgid "Specific Number of Orders"
+msgstr ""
+"特定訂單數量\n"
+
+#: inc/admin/menu/tabs/settings.php:518
+msgid "Standard WooCommerce Notice"
+msgstr ""
+"標準 WooCommerce 通知\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:167
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:168
+msgid "Status"
+msgstr ""
+"狀態\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:88 inc/fgf-layout-functions.php:91
+#, php-format
+msgid "Stock: %d"
+msgstr "庫存: %d"
+
+#: inc/admin/menu/tabs/settings.php:201
+msgid "Strike and display the Price"
+msgstr ""
+"刪除並顯示價格\n"
+
+#: inc/admin/menu/tabs/settings.php:203
+msgid ""
+"Strike and display the price will work only for shortcode based checkout "
+"page. For block based cart and checkout page, the price will display as zero."
+msgstr ""
+"『刪除原價並顯示價格』功能僅適用於以短代碼（shortcode）生成的結帳頁面。對於使用區塊（block）生成的購物車與結帳頁面，價格將顯示為 0。"
+
+#: inc/admin/menu/tabs/settings.php:792
+msgid "Subject"
+msgstr "主題 "
+
+#: inc/admin/menu/tabs/settings.php:1026
+msgid "Subtotal-based Gift - Automatic"
+msgstr "Subtotal-based Gift - 自動"
+
+#: inc/admin/menu/tabs/settings.php:998
+msgid "Success Messages"
+msgstr "成功消息"
+
+#: inc/admin/fgf-admin-functions.php:486
+msgid "Sunday"
+msgstr "星期日"
+
+#: inc/admin/menu/views/html-shortcodes-info.php:12
+#: inc/admin/menu/views/html-shortcodes-info.php:18
+msgid "Syntax"
+msgstr ""
+"語法\n"
+"\n"
+
+#: inc/admin/menu/tabs/settings.php:319
+msgid "Table"
+msgstr "表格"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:323
+#, php-format
+msgid "The %s cannot be deleted."
+msgstr " %s 不能被刪除。"
+
+#: inc/rest-api/class-fgf-rest-posts-controller.php:313
+#, php-format
+msgid "The %s has already been deleted."
+msgstr "%s 已被刪除"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:159
+msgid "The date the coupon was created, in the site's timezone."
+msgstr ""
+"優惠券建立日期（以網站時區為準）\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:165
+msgid "The date the coupon was last modified, in the site's timezone."
+msgstr ""
+"優惠券最後修改日期（以網站時區為準）\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:297
+msgid "The Gift products were added successfully"
+msgstr ""
+"贈品已成功加入\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:38
+msgid ""
+"The gift products will be restricted once the value given in this field has "
+"been reached. If left empty, the rule will be applicable for unlimited "
+"orders. "
+msgstr ""
+"當此欄位的值達到時，贈品商品將受限制。若留空，則該規則將適用於無限制的訂單。\n"
+
+#: inc/admin/menu/tabs/settings.php:107
+msgid "The Maximum number of gift products which can be chosen for each order."
+msgstr ""
+"每筆訂單可選擇的贈品商品最大數量\n"
+
+#: inc/admin/fgf-admin-functions.php:620
+msgid "The minimum cart quantity required to receive free gift(s)"
+msgstr "購物車中商品的最小數量必須達到此數，才能獲得贈品。"
+
+#: inc/admin/fgf-admin-functions.php:612
+msgid "The minimum cart subtotal required to receive free gift(s)"
+msgstr "購物車的最小訂單小計必須達到此金額，才能獲得贈品。"
+
+#: inc/admin/fgf-admin-functions.php:616
+msgid ""
+"The minimum category subtotal required in the cart to receive free gift(s)"
+msgstr "購物車中所選分類的商品小計，必須達到此最小金額，才能獲得贈品。"
+
+#: inc/admin/fgf-admin-functions.php:624
+msgid ""
+"The minimum no.of products which has to be purchased to receive free gift(s)"
+msgstr "獲取贈品所需購買的最少商品數量"
+
+#: inc/admin/fgf-admin-functions.php:608
+msgid "The minimum order total required to receive free gift(s)"
+msgstr "獲取贈品所需的最低訂單總額"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:75
+msgid ""
+"The number of order(s) for which each registered users can receive gift "
+"product(s) from this rule."
+msgstr "每個會員最多可適用此贈品規則的訂單數量"
+
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:14
+#: inc/compatibility/views/html-rule-get-product-brands-fields.php:14
+#: inc/compatibility/views/html-rule-gift-brands-fields.php:14
+#: inc/compatibility/views/html-rule-subtotal-gift-brands-fields.php:15
+#: inc/compatibility/views/html-rule-subtotal-gift-total-brands-fields.php:14
+msgid "The products from the selected brands will be displayed to the user"
+msgstr ""
+"將向使用者顯示所選品牌的商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:59
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:135
+msgid "The products from the selected categories will be displayed to the user"
+msgstr ""
+"將向使用者顯示所選分類的商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:147
+msgid ""
+"The rule will be valid for the selected Days. If left empty, the rule will "
+"be valid for all days of the week."
+msgstr ""
+"規則將適用於所選天數。若留空，規則將適用於一週中的所有天數\n"
+
+#: inc/admin/menu/tabs/rules.php:639
+#, php-format
+msgid ""
+"The selected product(s) %s cannot be set as free gifts. Please make sure the "
+"products you select as free gifts have been published and are currently In-"
+"stock."
+msgstr ""
+"所選商品 %s 無法設為贈品。請確保您選擇的贈品商品已發佈並且目前有庫存。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-coupon-gifts.php:47
+msgid ""
+"The selected Product(s) will be added to the user's cart once the coupon "
+"applied"
+msgstr "當使用者套用指定優惠券後，選定的商品將自動加入購物車。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:113
+msgid ""
+"The selected Product(s) will be added to the user's cart once the subtoal "
+"reached"
+msgstr "當訂單小計達到設定金額時，選定的商品將自動加入使用者的購物車。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-manual-gifts.php:38
+msgid "The selected products will be displayed to the user"
+msgstr "所選擇的將向用戶展示的產品"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:24
+msgid "The selected users will be eligible for free gifts"
+msgstr ""
+"所選使用者將有資格獲得贈品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:201
+msgid ""
+"The user must add the number of products mentioned in this option to their "
+"cart in order for them to be eligibile for a Free Gift."
+msgstr "使用者必須在購物車中加入此選項中指定數量的商品，才能符合獲得贈品的條件。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:243
+#: inc/compatibility/views/html-rule-product-brand-filters.php:45
+msgid ""
+"The user's cart must contain the minimum quantity mentioned in this option "
+"which is the sum of the product(s) quantity that belongs to the selected "
+"categories."
+msgstr "使用者的購物車中，所選分類的商品數量總和必須達到此選項中設定的最小數量。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:117
+msgid ""
+"The user's cart quantity(sum of all product quantities) should be within the "
+"specified range"
+msgstr "用戶的購物車數量(所有產品數量的總額)應在指定的範圍內。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:133
+msgid ""
+"The users will be eligible for free products when they purchase any of the "
+"products selected in this option."
+msgstr ""
+"使用者購買此選項中任一商品時，將有資格獲得免費商品\n"
+
+#: inc/admin/menu/tabs/settings.php:634
+msgid ""
+"The value configured here will be considered as price for the Gift Products "
+"and used for Legal as well as Payment Gateway validation."
+msgstr ""
+"此處設定的值將被視為贈品的價格，並用於法規及支付閘道驗證\n"
+
+#: inc/privacy/class-fgf-privacy.php:59
+msgid ""
+"This includes the basics of what personal data your store may collect, store "
+"& share. Depending on what settings are enabled furthermore which additional "
+"plugins used, the specific information shared by your store will vary."
+msgstr "這包括您的商店可能收集、儲存與分享的個人資料基本資訊。根據啟用的設定以及使用的其他附加外掛，您的商店分享的具體資訊將有所不同。"
+
+#: inc/admin/menu/tabs/manual-gifts.php:78
+msgid "This option controls the order status of the Manual order"
+msgstr ""
+"此選項控制手動訂單的訂單狀態\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:212
+#: inc/compatibility/views/html-rule-product-brand-filters.php:14
+msgid ""
+"This option provides additional control on when to award the Free Gifts."
+msgstr ""
+"此選項提供額外控制以決定何時發放贈品\n"
+
+#: inc/privacy/class-fgf-privacy.php:61
+msgid ""
+"This plugin allows users to get Free Gifts for their purchase in the site "
+"based on the configuration(s)."
+msgstr ""
+"此外掛允許使用者根據設定在網站購買時獲得贈品\n"
+
+#: inc/admin/fgf-admin-functions.php:483
+msgid "Thursday"
+msgstr ""
+"星期四\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:131
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:482
+msgid "To"
+msgstr ""
+"至\n"
+
+#: inc/admin/fgf-admin-functions.php:329
+msgid "Total based Free Gift - Autotmatic"
+msgstr ""
+"基於總額的贈品 - 自動\n"
+
+#: inc/admin/fgf-admin-functions.php:328
+msgid "Total based Free Gift - Manual"
+msgstr ""
+"基於總額的贈品 - 手動\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:24
+msgid "Total Based Free Gifts"
+msgstr ""
+"基於總額的贈品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:21
+msgid "Total Configuration"
+msgstr ""
+"總額設定\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:343
+msgid "Total Gift Categories IDs."
+msgstr ""
+"總額贈品分類 ID\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:335
+msgid "Total Gift Product IDs."
+msgstr "總額贈品商品 ID"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:351
+msgid "Total Gift Products Quantity"
+msgstr ""
+"贈品商品總數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:330
+msgid "Total Gift Type."
+msgstr ""
+"贈品總類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:478
+msgid "Total Maximum Value."
+msgstr ""
+"總最大值\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:473
+msgid "Total Minimum Value."
+msgstr ""
+"總最小值\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:133
+msgid ""
+"Total number of products added in the user's cart should be within the "
+"specified range"
+msgstr "使用者購物車中加入的商品總數應該在指定範圍內。"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:524
+msgid "Total Price"
+msgstr ""
+"總價格\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:325
+msgid "Total Price."
+msgstr ""
+"總價格\n"
+
+#: inc/fgf-default-functions.php:237
+msgid "Total Quantity of the Product(s) from the selected brands"
+msgstr "所選擇的品牌的產品(s)總量"
+
+#: inc/fgf-default-functions.php:207
+msgid "Total Quantity of the Product(s) from the selected categories"
+msgstr "所選擇的類別的產品(s)總量"
+
+#: inc/compatibility/views/html-rule-buy-product-brands-fields.php:51
+msgid "Total Quantity of the Selected Brand's Products"
+msgstr ""
+"所選品牌商品的總數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:121
+msgid "Total Quantity of the Selected Category's Products"
+msgstr ""
+"所選分類商品的總數量\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:136
+msgid "Total Quantity of the Selected Products"
+msgstr ""
+"所選商品的總數量\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:356
+msgid "Total Repeat Gift"
+msgstr ""
+"總重複贈品\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:366
+msgid "Total Repeat Gift Limit"
+msgstr ""
+"總重複贈品限制\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:361
+msgid "Total Repeat Gift Mode"
+msgstr ""
+"總重複贈品模式\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:26
+msgid "Total-based Free Gift - Automatic"
+msgstr "Total-based Free Gift  - 自動"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:25
+msgid "Total-based Free Gift - Manual"
+msgstr "Total-based Free Gift - 手動"
+
+#: inc/admin/menu/tabs/settings.php:625
+msgid "Troubleshoot"
+msgstr ""
+"疑難排解\n"
+
+#: inc/admin/fgf-admin-functions.php:481
+msgid "Tuesday"
+msgstr ""
+"星期二\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:275
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:170
+#: inc/class-fgf-manual-gift-order-handler.php:53
+#: inc/class-fgf-order-handler.php:61
+#: inc/frontend/class-fgf-cart-handler.php:87
+msgid "Type"
+msgstr ""
+"類型\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:143
+msgid "Unique identifier for the object."
+msgstr ""
+"物件的唯一識別碼\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:279
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:192
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:477
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:479
+msgid "Unlimited"
+msgstr ""
+"無限制\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:274
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:187
+msgid ""
+"Unlimited: No restriction on receiving Free Gifts. Limited: Free Gift can be "
+"received till the Repeat Limit is reached."
+msgstr ""
+"無限制：獲取贈品沒有限制。\n"
+"有限制：可獲取贈品直到達到重複限制為止。\n"
+
+#: inc/admin/menu/views/edit-rule.php:57
+msgid "Update Rule"
+msgstr ""
+"更新規則\n"
+
+#: inc/admin/class-fgf-admin-assets.php:111
+msgid "Upload"
+msgstr ""
+"上傳\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-master-log-list-table.php:166
+msgid "User Details"
+msgstr ""
+"使用者詳細資料\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:20
+#: inc/admin/menu/views/rule-panel/html-rule-data-filters.php:23
+msgid "User Filter"
+msgstr ""
+"使用者篩選\n"
+
+#: inc/rest-api/class-fgf-rest-rule-controller.php:503
+msgid "User Filter Type."
+msgstr ""
+"使用者篩選類型\n"
+
+#: inc/fgf-default-functions.php:177
+msgid "User purchases the Specified Number of Products"
+msgstr ""
+"使用者購買指定數量商品\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:57
+msgid "User Restrictions"
+msgstr ""
+"使用者限制\n"
+
+#: inc/admin/menu/wp-list-table/class-fgf-rules-list-table.php:169
+msgid "Validity"
+msgstr ""
+"有效性\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:111
+msgid "Validity Restrictions"
+msgstr ""
+"有效性限制\n"
+
+#: inc/admin/menu/views/html-shortcodes-info.php:34
+#: inc/admin/menu/views/shortcode/html-parameters-shortcode-content.php:17
+msgid "Value"
+msgstr ""
+"數值\n"
+
+#: inc/admin/fgf-admin-functions.php:482
+msgid "Wednesday"
+msgstr ""
+"星期三\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:146
+msgid "Week Day(s) Restrictions"
+msgstr ""
+"星期限制\n"
+
+#: inc/admin/menu/tabs/settings.php:692
+msgid "Week(s)"
+msgstr ""
+"週數\n"
+
+#: inc/privacy/class-fgf-privacy.php:60
+msgid "What the Plugin Does?"
+msgstr ""
+"外掛功能說明\n"
+
+#: inc/privacy/class-fgf-privacy.php:62
+msgid "What We Collect and Store?"
+msgstr ""
+"我們收集並儲存什麼？\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:95
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:77
+msgid ""
+"When enabled and if WC coupon is applied, then the discount amount will be "
+"considered for calculation of \"Category Total Criteria\"."
+msgstr ""
+"啟用後，若套用 WooCommerce 優惠券，則折扣金額將計入「分類總計條件」的計算。\n"
+
+#: inc/admin/menu/tabs/settings.php:529
+msgid ""
+"When enabled, a notice will be displayed in checkout page asking the users "
+"to choose their free gifts. This notice will hidden if the user has already "
+"chosen their free gifts on cart page."
+msgstr ""
+"啟用後，結帳頁面將顯示通知，提示使用者選擇贈品。若使用者已在購物車頁面選擇贈品，該通知將隱藏。\n"
+
+#: inc/admin/menu/tabs/settings.php:122
+msgid ""
+"When enabled, a user can add the same product multiple times to the cart. "
+"Provided they are eligible to receive multiple gifts for a single purchase."
+msgstr "啟用後，使用者可以在同一次購物中，將相同的贈品多次加入購物車（前提是他符合條件，可以在單筆訂單中獲得多個贈品）。"
+
+#: inc/admin/menu/tabs/settings.php:130
+msgid "When enabled, a user can remove the automatically added gift products."
+msgstr ""
+"啟用後，使用者可以移除自動加入的贈品商品。\n"
+
+#: inc/admin/menu/tabs/settings.php:139
+msgid ""
+"When enabled, the shipping cost will be consider for free gifts in the order."
+msgstr ""
+"啟用後，運費將計入訂單中的贈品計算。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:264
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:176
+msgid ""
+"When enabled, the user will keep receiving free gifts every time they add "
+"the multiples of the required quantity to the cart."
+msgstr "啟用後，當使用者每次在購物車中新增達到規定數量的倍數時，都會持續獲得對應的贈品。"
+
+#: inc/admin/menu/tabs/settings.php:158
+msgid ""
+"When enabled, the user will not be eligible for a free gift if they have "
+"used a WooCommerce Coupon in the order."
+msgstr ""
+"啟用後，若訂單使用了 WooCommerce 優惠券，使用者將無法獲得贈品。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-notices.php:26
+msgid ""
+"When set to \"Show\", a notice will be displayed to user in cart and "
+"checkout if they are not eligible for receiving free gifts from this rule."
+msgstr "設定為『顯示』時，若使用者不符合此規則的贈品條件，將在購物車與結帳頁面顯示提示訊息。"
+
+#: inc/admin/menu/views/add-new-rule.php:17
+#: inc/admin/menu/views/edit-rule.php:18
+msgid ""
+"When set to Active, the products from this rule will be listed to the user. "
+"The user can choose their Free Gift from the available products."
+msgstr ""
+"設定為啟用時，該規則的商品將顯示給使用者。使用者可以從可用商品中選擇他們的贈品。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:61
+msgid ""
+"When set to Enable, registered users can be restricted to receive free "
+"gift(s) from this rule for a fixed number of times."
+msgstr ""
+"設定為啟用時，可限制註冊使用者依此規則獲得贈品的次數。\n"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-panel.php:14
+msgid ""
+"When set to Manual Gifts, the users can choose their gift product(s). When "
+"set to Automatic Gifts, the gift product(s) set in this rule will be "
+"automatically added to the user's cart. When set to Buy X Get Y, the user "
+"will get the specified quantities of the product for free if they purchase "
+"the specified quantities of the product. When set to Coupon based Free Gift, "
+"the user will eligible for receiving gift product(s) once the required "
+"coupon is applied."
+msgstr ""
+"設定為『手動選擇贈品』時，使用者可以自行挑選贈品。\n"
+"設定為『自動贈品』時，規則中指定的贈品會自動加入使用者的購物車。\n"
+"設定為『買 X 送 Y』時，當使用者購買指定數量的商品時，將免費獲得指定數量的該商品。\n"
+"設定為『優惠券贈品』時，當使用者套用指定的優惠券後，即可獲得贈品。"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-bogo-gifts.php:24
+msgid ""
+"When set to Same Product, the user will receive the specified quantities of "
+"the same product for free. When set to Different products, the user will "
+"receive the specified quantities of another product  for free."
+msgstr "當設定為「同款商品」時，使用者將免費獲得指定數量的同款商品。當設定為「不同商品」時，使用者將免費獲得指定數量的其他商品。"
+
+#: inc/admin/menu/tabs/settings.php:759
+msgid "WooComerce Template"
+msgstr ""
+"WooCommerce 模板\n"
+
+#: inc/admin/fgf-admin-functions.php:18
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:165
+msgid "WooCommerce Coupon usage based Gift restriction type"
+msgstr ""
+"基於 WooCommerce 優惠券使用的贈品限制類型\n"
+
+#: inc/admin/menu/tabs/settings.php:694
+msgid "Year(s)"
+msgstr ""
+"年份\n"
+
+#: inc/admin/menu/tabs/settings.php:257 inc/admin/menu/tabs/settings.php:483
+#: inc/admin/menu/tabs/settings.php:656 inc/admin/menu/tabs/settings.php:678
+#: inc/admin/menu/views/rule-panel/html-rule-data-criteria.php:78
+#: inc/admin/menu/views/rule-panel/html-rule-data-restrictions.php:182
+#: inc/admin/menu/views/rule-panel/html-rule-data-subtotal-gifts.php:61
+msgid "Yes"
+msgstr ""
+"是\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:68
+msgid "You can also choose multiple products"
+msgstr ""
+"您也可以選擇多個商品\n"
+
+#: inc/admin/menu/tabs/manual-gifts.php:41
+msgid ""
+"You can manually send free gifts to any user on the site. \n"
+"To send a free gift, select a user, product(s) and click the Send Gift "
+"button. An order will be created on behalf of the user.\n"
+msgstr ""
+"您可以手動將贈品發送給網站上的任何使用者。\n"
+"要發送贈品，請選擇使用者與商品，然後點擊「發送贈品」按鈕。系統將代表使用者建立一筆訂單。\n"
+
+#: inc/admin/class-fgf-admin-assets.php:144
+msgid "You can only select %qty% items"
+msgstr ""
+"您只能選擇 %qty% 項\n"
+
+#: inc/admin/class-fgf-admin-assets.php:143
+msgid "You can only select 1 item"
+msgstr ""
+"您只能選擇 1 項\n"
+
+#: inc/admin/menu/views/shortcode/html-parameters-shortcode-content.php:12
+msgid ""
+"You can use the below-listed parameters for the shortcodes which support the "
+"parameters."
+msgstr ""
+"可在支援參數的短代碼中使用以下列出的參數\n"
+
+#: inc/admin/menu/views/shortcode/html-common-shortcode-content.php:12
+msgid "You can use the shortcodes on any page."
+msgstr ""
+"您可以在任何頁面使用短代碼\n"
+
+#: inc/admin/class-fgf-admin-ajax.php:245
+msgid "You cannot add the products because this order is no longer editable"
+msgstr ""
+"無法新增商品，因為此訂單已不可編輯\n"
+
+#: templates/email/gift-product-details.php:19
+msgid "Your Price"
+msgstr ""
+"您的價格\n"
+
+#: inc/abstracts/class-fgf-settings-page.php:259
+msgid "Your settings have been reset"
+msgstr ""
+"您的設定已重置\n"
+
+#: inc/abstracts/class-fgf-settings-page.php:233
+msgid "Your settings have been saved"
+msgstr "您的設定已儲存"
