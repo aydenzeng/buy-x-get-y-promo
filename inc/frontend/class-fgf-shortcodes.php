@@ -34,7 +34,8 @@ if (!class_exists('FGF_Shortcodes')) {
 				'fgf_cart_eligible_notices',
 				'fgf_progress_bar',
 				'fgf_promotion_list',
-				'fgf_promotion_detail'
+				'fgf_promotion_detail',
+				'fgf_promotion_products',
 			));
 
 			foreach ($shortcodes as $shortcode_name) {
@@ -56,6 +57,7 @@ if (!class_exists('FGF_Shortcodes')) {
 				case 'progress_bar':
 				case 'promotion_list':
 				case 'promotion_detail':
+				case 'promotion_products':
 					ob_start();
 					self::$function($atts, $content); // output for shortcode.
 					$content = ob_get_contents();
@@ -206,6 +208,47 @@ if (!class_exists('FGF_Shortcodes')) {
 			fgf_get_template('progress-bar.php');
 		}
 
+		/**
+		 * Placeholder for future use
+		 * [fgf_promotion_products columns="4"]
+		 */
+		public static function shortcode_promotion_products($atts = array()){
+			$atts = shortcode_atts(array(
+				'columns' => 4, // 可选，控制列数
+			), $atts, 'promotion_products');
+			//獲取所有促銷產品
+			$products = fgf_get_rule_valid_gift_products() ;
+			if (!fgf_check_is_array($products)) return;
+			if (!empty($products)) {
+				// 临时设置 WooCommerce 列数
+				add_filter('loop_shop_columns', function($columns) use ($atts) {
+					return !empty($atts['columns']) ? intval($atts['columns']) : $columns;
+				});
+
+				$args = array(
+					'post_type' => 'product',
+					'post__in'  => $products,
+					'orderby'   => 'post__in',
+					'posts_per_page' => -1,
+				);
+				$loop = new WP_Query($args);
+
+				ob_start();
+				if ($loop->have_posts()) {
+					woocommerce_product_loop_start(); // 输出 <ul class="products columns-4">
+					while ($loop->have_posts()) : $loop->the_post();
+						wc_get_template_part('content', 'product'); // 使用主题默认商品模板
+					endwhile;
+					woocommerce_product_loop_end();
+				}
+				wp_reset_postdata();
+				$product_html = ob_get_clean();
+			} else {
+				$product_html = '';
+			}
+			echo $product_html;
+			return;
+		}
 		/**
 		 * Show promotion detail
 		 * 

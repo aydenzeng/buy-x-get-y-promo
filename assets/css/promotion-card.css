@@ -176,6 +176,10 @@
     justify-content: center;
     background: none;
 }
+.fgf-sale-badge.has-image img{
+    width: 100%!important;
+}
+
 .fgf-sale-badge {
     position: absolute;
     background: red;
