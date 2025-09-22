@@ -314,7 +314,7 @@ if (!class_exists('FGF_Shortcodes')) {
 			$paged    = ($mode === 'pagination' && isset($_GET['fgf_page'])) ? max(1, intval($_GET['fgf_page'])) : 1;
 
 			$rules_post_type = FGF_Register_Post_Types::RULES_POSTTYPE;
-			$statuses        = implode("','", fgf_get_rule_statuses());
+			// $statuses        = implode("','", fgf_get_rule_statuses());
 			// 如果指定了 IDs，则只查询这些 ID 的促销
 			if (!empty($ids)) {
 				$id_array = array_map('intval', explode(',', $ids));
@@ -328,7 +328,7 @@ if (!class_exists('FGF_Shortcodes')) {
 				SELECT COUNT(*) 
 				FROM $wpdb->posts 
 				WHERE post_type = '$rules_post_type' 
-				AND post_status IN ('$statuses')
+				AND post_status = 'fgf_active'
 				$id_where
 			");
 			if (!empty($ids)) {
@@ -347,7 +347,7 @@ if (!class_exists('FGF_Shortcodes')) {
 				SELECT ID, post_title 
 				FROM $wpdb->posts 
 				WHERE post_type = %s 
-				AND post_status IN ('$statuses')
+				AND post_status = 'fgf_active'
 				$id_where
 				ORDER BY menu_order ASC, ID ASC
 				LIMIT %d OFFSET %d
@@ -401,9 +401,10 @@ if (!class_exists('FGF_Shortcodes')) {
 		 * @param FGF_Rule $rule
 		 * @return array
 		 */
-		private static function get_rule_products($rule){
+		public static function get_rule_products($rule){
 			$buy_products = [];
 			$get_products = [];
+			$get_products_categories = [];
 			$rules_type   = $rule->get_rule_type();
 			switch ($rules_type) {
 					case '1':
@@ -411,23 +412,46 @@ if (!class_exists('FGF_Shortcodes')) {
 						$buy_products = $rule->get_buy_product();
 						$get_products = $rule->get_gift_products();
 						break;
-					case '5':
+					case '5'://買 X 得 Y - 手動
 						$buy_products = $rule->get_buy_product();
-						$get_products = $rule->get_products();
+						if ('2' === $rule->get_product_type()) {
+							$get_products_categories = $rule->get_categories();
+						} else {
+							$get_products = $rule->get_products();
+						}
 						break;
 					case '3':
 						$bogo_gift_type = $rule->get_bogo_gift_type();
 						$buy_products   = $rule->get_buy_product();
-						$get_products   = ($bogo_gift_type == '1') ? $buy_products : $rule->get_products();
+						$get_products   = ($bogo_gift_type == '1') ? $buy_products : self::$rule->get_products();
 						break;
-					case '7':
-					case '8':
+					case '4'://基於優惠券的免費贈品 - 自動
+					case '6'://基於優惠券的免費贈品 - 手動
+						$get_products = $rule->get_coupon_gift_products();
+					break;
+					case '7'://基於總額贈品  - 手動
+						if ('2' === $rule->get_subtotal_gift_type()) {
+							$get_products_categories = $rule->get_subtotal_gift_categories();
+						} else {
+							$get_products = $rule->get_subtotal_gift_products();
+						}
+						break;
+					case '8'://基於總額贈品  - 自動
 						$buy_products = [];
 						$get_products = $rule->get_subtotal_gift_products();
 						break;
+					default:
+						if ('2' === $rule->get_gift_type()) {
+							$get_products_categories = $rule->get_gift_categories();
+						} else {
+							$get_products = $rule->get_gift_products();
+						}
+
+						break;
 				}
-			return array('buy'=>$buy_products,'get'=>$get_products);
+			return array('buy'=>$buy_products,'get'=>$get_products,'get_categories'=>isset($get_products_categories)?$get_products_categories:[]);
 		}
+		
 
 		/**
 		 * Render promotion cards HTML
@@ -470,12 +494,12 @@ if (!class_exists('FGF_Shortcodes')) {
 				}
 				$html .= '<div class="fgf-promotion-card" data-href="' . esc_url($rule->get_frontend_permalink()) . '">';
 				$html .= '<h3 class="fgf-promotion-title">' . $title . '</h3>';
-				$html .= '<p class="fgf-promotion-validity"><strong>' . __('Validity:', 'buy-x-get-y-promo') . '</strong> ' . $validity . '</p>';
+				$html .= '<p class="fgf-promotion-validity"><strong>' . __('Validity', 'buy-x-get-y-promo') . '</strong> ' . $validity . '</p>';
 				if (!empty($product_buy_links)) {
-					$html .= '<p><strong>' . __('Buy Products:', 'buy-x-get-y-promo') . '</strong> ' . implode(', ', $product_buy_links) . '</p>';
+					$html .= '<p><strong>' . __('Buy Products', 'buy-x-get-y-promo') . ':</strong> ' . implode(', ', $product_buy_links) . '</p>';
 				}
 				if (!empty($product_get_links)) {
-					$html .= '<p><strong>' . __('Get Products:', 'buy-x-get-y-promo') . '</strong> ' . implode(', ', $product_get_links) . '</p>';
+					$html .= '<p><strong>' . __('Get Products', 'buy-x-get-y-promo') . ':</strong> ' . implode(', ', $product_get_links) . '</p>';
 				}
 				if ($description) {
 					$html .= '<p class="fgf-promotion-description">' . $description . '</p>';

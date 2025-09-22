@@ -164,6 +164,7 @@
 
 
 /* 商品卡片容器要 position: relative; */
+.woocommerce-js ul.products li.product,
 .woocommerce ul.products li.product,
 .wp-block-woocommerce-product-collection ul.wp-block-woocommerce-product-template li{
     position: relative;

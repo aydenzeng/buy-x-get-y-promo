@@ -29,7 +29,7 @@ if (!function_exists('fgf_get_rule')) {
 	/**
 	 * Get Rule object
 	 *
-	 * @return object
+	 * @return FGF_RULE
 	 */
 	function fgf_get_rule( $id ) {
 		$object = new FGF_RULE($id);

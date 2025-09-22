@@ -34,6 +34,14 @@ if (!class_exists('FGF_Rule_Handler')) {
 		protected static $valid_gift_products;
 
 		/**
+		 * Real Valid gift products.
+		 * 用來存放實際可用的贈品商品 ID 陣列，排除掉已下架或不可購買的商品
+		 * @since 9.6.0
+		 * @var array
+		 */
+		protected static $real_valid_gift_products;
+
+		/**
 		 * Manual Gift Products.
 		 *
 		 * @since 1.0.0
@@ -141,7 +149,7 @@ if (!class_exists('FGF_Rule_Handler')) {
 		 * Rule.
 		 *
 		 * @since 1.0.0
-		 * @var object
+		 * @var FGF_Rule
 		 * */
 		protected static $rule;
 
@@ -1078,6 +1086,40 @@ if (!class_exists('FGF_Rule_Handler')) {
 		}
 
 		/**
+		 * 獲取有效的贈品商品,排除失效的規則商品.
+		 *
+		 * @since 9.6.0
+		 * @return array
+		 */
+		public static function get_real_valid_gift_products() {
+			if (self::$real_valid_gift_products) {
+				return self::$real_valid_gift_products;
+			}
+			$products = array();
+
+			$rule_statuses = array_filter((array) get_option('fgf_settings_gift_products_valid_rule_statuses'));
+			$rule_ids = fgf_get_rule_ids($rule_statuses);
+			if (fgf_check_is_array($rule_ids)) {
+				foreach ($rule_ids as $rule_id) {
+
+					self::$rule = fgf_get_rule($rule_id);
+					if(!self::$rule->is_valid_rule()){
+						continue;
+					}
+					// Each all rule products.
+					$products = array_merge($products, self::get_products(true));
+				}
+			}
+
+			// reset the rule.
+			self::$rule = null;
+
+			self::$real_valid_gift_products = array_filter(array_unique($products));
+
+			return self::$real_valid_gift_products;
+		}
+
+		/**
 		 * Get Rule Products
 		 */
 		public static function rule_products() {
@@ -1328,6 +1370,7 @@ if (!class_exists('FGF_Rule_Handler')) {
 
 				case '3':
 					if ('1' == self::$rule->get_bogo_gift_type()) {
+						$products   = self::$rule->get_buy_product();
 						return $products;
 					} else {
 						$selected_products = self::$rule->get_products();
@@ -3121,53 +3164,6 @@ if (!class_exists('FGF_Rule_Handler')) {
 			self::$criteria_filter = false;
 			self::$user_filter = false;
 			self::$product_filter = false;
-		}
-
-		/**
-		 * Get all rules products.
-		 */
-		public static function get_all_rules_products_ids() {
-			$all_gifts_products = array(
-				'manual_rule_products'    => self::$manual_rule_products,
-				'automatic_rule_products' => self::$automatic_rule_products,
-				'bogo_rule_products'      => self::$bogo_rule_products,
-				'coupon_rule_products'    => self::$coupon_rule_products,
-			);
-			$product_ids = array();
-			foreach ($all_gifts_products as $key => $v) {
-				switch ($key) {
-					case 'manual_rule_products':
-					case 'automatic_rule_products':
-						foreach ($v as $rule_id =>$product_arr) {
-							if (!isset($product_ids[$rule_id])) {
-								$product_ids[$rule_id] = array();
-							}
-							$pids=array_keys($product_arr);
-							$product_ids[$rule_id]=array_unique(array_merge($product_ids[$rule_id],$pids));
-						}
-						break;
-					case 'bogo_rule_products':
-						foreach ($v as $rule_id =>$product_arr) {
-							if (!isset($product_ids[$rule_id])) {
-								$product_ids[$rule_id] = array();
-							}
-							$inner_pid=array();
-							foreach ($product_arr as $key1 => $v1) {
-								// print_r($v1);
-								$inner_pids=array_keys($v1);
-							}
-							$pids=array_keys($product_arr);
-							$pids=array_unique(array_merge($pids,$inner_pids));
-							// print_r($pids);
-							$product_ids[$rule_id]=array_unique(array_merge($product_ids[$rule_id],$pids));
-						}
-						break;
-					case 'coupon_rule_products':
-						break;
-				}
-			}
-			return $product_ids;
-
 		}
 	}
 

@@ -49,7 +49,7 @@ if (!class_exists('FGF_Admin_Ajax')) {
 
 			global $wpdb;
 			$rules_post_type = FGF_Register_Post_Types::RULES_POSTTYPE;
-			$statuses        = implode("','", fgf_get_rule_statuses());
+			// $statuses        = implode("','", fgf_get_rule_statuses());
 
 			$paged    = isset($_POST['page']) ? max(1, intval($_POST['page'])) : 1;
 			$per_page = isset($_POST['per_page']) ? max(1, intval($_POST['per_page'])) : 3;
@@ -60,7 +60,7 @@ if (!class_exists('FGF_Admin_Ajax')) {
 				SELECT ID, post_title 
 				FROM $wpdb->posts 
 				WHERE post_type = %s 
-				AND post_status IN ('$statuses')
+				AND post_status = 'fgf_active'
 				ORDER BY menu_order ASC, ID ASC
 				LIMIT %d OFFSET %d
 			", $rules_post_type, $per_page, $offset));
@@ -70,7 +70,7 @@ if (!class_exists('FGF_Admin_Ajax')) {
 				SELECT COUNT(*) 
 				FROM $wpdb->posts 
 				WHERE post_type = '$rules_post_type' 
-				AND post_status IN ('$statuses')
+				AND post_status = 'fgf_active'
 			");
 			$total_pages = ceil($total_rules / $per_page);
 

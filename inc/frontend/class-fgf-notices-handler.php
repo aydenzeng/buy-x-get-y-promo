@@ -41,8 +41,19 @@ if (!class_exists('FGF_Notices_Handler')) {
     	public static function add_sale_badge() {
 			global $product;
 			if (!$product instanceof WC_Product) return;
-			$rule_products = FGF_Rule_Handler::get_all_rules_products_ids();
-			$all_promotions_products = array_unique(array_merge(...array_values($rule_products)));
+			/**
+			 * 標識rule的類型
+			 * @since 1.0.0
+			 * @hook fgf_valid_gift_products
+			 * @param array $products 參與促銷的商品ID數組
+			 * @param FGF_Rule $rule 當前促銷規則對象
+			 * @return array
+			 */
+			add_filter('fgf_rule_valid_gift_products', function($products) {
+				// 仅当规则是 active 才返回产品
+				return FGF_Rule_Handler::get_real_valid_gift_products();
+			}, 100);
+			$all_promotions_products = fgf_get_rule_valid_gift_products() ;
 			if (!fgf_check_is_array($all_promotions_products)) return;
 			if (in_array($product->get_id(), $all_promotions_products)) {
 				echo '<span class="fgf-sale-badge">' . __('SALE', 'buy-x-get-y-promo') . '</span>';

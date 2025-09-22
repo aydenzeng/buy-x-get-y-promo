@@ -2097,5 +2097,37 @@ if (!class_exists('FGF_Rule')) {
 				return $detail_url;
 			}
 		}
+
+		/**
+		 * 判斷規則是否在有效期內，是否有效
+		 */
+		public function is_valid_rule() {
+			// 檢查是否啟用
+			if ( 'fgf_active' !== $this->get_status() ) {
+				return false;
+			}
+			// 檢查星期幾,1-7 代表星期一到星期日
+			$week_days = $this->get_rule_week_days_validation();
+			if ( is_array( $week_days ) && ! empty( $week_days ) ) {
+				$current_day = strtolower( date('N') ); // 取得今天是星期幾
+				$week_days   = array_map( 'strtolower', $week_days ); // 將陣列中的值轉為小寫
+				if ( ! in_array( $current_day, $week_days ) ) {
+					return false; // 如果今天不在陣列中，回傳 false
+				}
+			}
+			// 檢查日期範圍
+			$valid_from = $this->get_rule_valid_from_date();
+			$valid_to   = $this->get_rule_valid_to_date();
+			$today      = date('Y-m-d');
+
+			//這裏修改成如果填寫了,不在範圍內就返回false
+			if ( ! empty( $valid_from ) && $today < $valid_from ) {
+				return false;
+			}
+			if ( ! empty( $valid_to ) && $today > $valid_to ) {
+				return false;
+			}
+			return true;
+		}
 	}
 }
