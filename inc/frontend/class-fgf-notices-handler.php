@@ -56,7 +56,24 @@ if (!class_exists('FGF_Notices_Handler')) {
 			$all_promotions_products = fgf_get_rule_valid_gift_products() ;
 			if (!fgf_check_is_array($all_promotions_products)) return;
 			if (in_array($product->get_id(), $all_promotions_products)) {
-				echo '<span class="fgf-sale-badge">' . __('SALE', 'buy-x-get-y-promo') . '</span>';
+				$width  = get_option('fgf_settings_promotion_badge_width');
+				$position = get_option('fgf_settings_promotion_badge_position', 'top-left');
+				$width  = $width ? intval($width) : 40;
+				$style  = 'width:' . intval($width) . 'px;';
+				if ($style) {
+					$style = ' style="' . esc_attr($style) . '"';
+				}
+				// 取設置的 badge icon
+				$badge_icon = get_option('fgf_settings_promotion_badge_icon'); //
+				if ($badge_icon) {
+					// 有上傳，顯示圖片
+					echo '<span' . $style . ' class="fgf-sale-badge has-image fgf-sale-badge-icon position-' . esc_attr($position) . '">';
+					echo '<img src="' . esc_url($badge_icon) . '" alt="SALE" />';
+					echo '</span>';
+				} else {
+					// 沒有上傳，顯示文字
+					echo '<span class="fgf-sale-badge position-' . esc_attr($position) . '">' . __('SALE', 'buy-x-get-y-promo') . '</span>';
+				}
 			}
 		}
 

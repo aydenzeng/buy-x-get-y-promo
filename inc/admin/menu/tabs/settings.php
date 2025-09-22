@@ -173,6 +173,8 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 	 * @return array
 	 */
 	public function display_section_array() {
+		wp_enqueue_media(); // 引入 WP 媒體庫腳本
+		wp_enqueue_script('fgf-badge-icon-upload', FGF_PLUGIN_URL.'/assets/js/badge-icon-upload.js', array('jquery'), '1.0', true);
 		$section_fields = array();
 
 		// General section start.
@@ -207,6 +209,55 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 			'id' => 'fgf_restriction_options',
 		);
 		// General section end.
+		// Promotion page section start.
+		$section_fields[] = array(
+			'type' => 'title',
+			'title' => __('Promotion Page Settings', 'buy-x-get-y-promo'),
+			'id' => 'fgf_promotion_page_options',
+		);
+		$section_fields[] = array(
+			'title' => __('Promotion Badge Icon', 'buy-x-get-y-promo'),
+			'type'  => 'text', // 用 input 來存 URL
+			'id'    => $this->get_option_key('promotion_badge_icon'),
+			'class' => 'regular-text fgf-badge-icon-url',
+			'desc'  => '<button type="button" class="button fgf-upload-badge-icon">' . __('Upload Badge Icon', 'buy-x-get-y-promo') . '</button><br>' .
+					__('Upload an image to be used as the badge icon for free gifts.', 'buy-x-get-y-promo'),
+		);
+		// Badge 顯示位置
+		$section_fields[] = array(
+			'title'   => __('Promotion Badge Position', 'buy-x-get-y-promo'),
+			'type'    => 'select',
+			'id'      => $this->get_option_key('promotion_badge_position'),
+			'default' => 'top-left',
+			'options' => array(
+				'top-left'     => __('Top Left', 'buy-x-get-y-promo'),
+				'top-center'   => __('Top Center', 'buy-x-get-y-promo'),
+				'top-right'    => __('Top Right', 'buy-x-get-y-promo'),
+				'middle-left'  => __('Middle Left', 'buy-x-get-y-promo'),
+				'middle-center'=> __('Middle Center', 'buy-x-get-y-promo'),
+				'middle-right' => __('Middle Right', 'buy-x-get-y-promo'),
+				'bottom-left'  => __('Bottom Left', 'buy-x-get-y-promo'),
+				'bottom-center'=> __('Bottom Center', 'buy-x-get-y-promo'),
+				'bottom-right' => __('Bottom Right', 'buy-x-get-y-promo'),
+			),
+			'desc'    => __('Choose where the promotion badge should be displayed on the product image.', 'buy-x-get-y-promo'),
+		);
+		// Badge 大小
+		// Badge 寬度
+		$section_fields[] = array(
+			'title' => __('Badge Width (px)', 'buy-x-get-y-promo'),
+			'type'  => 'number',
+			'id'    => $this->get_option_key('promotion_badge_width'),
+			'class' => 'small-text',
+			'desc'  => __('Set the width of the promotion badge in pixels.', 'buy-x-get-y-promo'),
+			'default' => 40,
+		);
+
+		$section_fields[] = array(
+			'type' => 'sectionend',
+			'id' => 'fgf_promotion_page_options',
+		);
+		// Promotion page section end.
 		// Cart page section start.
 		$section_fields[] = array(
 			'type' => 'title',

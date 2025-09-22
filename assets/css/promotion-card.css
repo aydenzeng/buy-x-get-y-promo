@@ -169,11 +169,14 @@
 .wp-block-woocommerce-product-collection ul.wp-block-woocommerce-product-template li{
     position: relative;
 }
-
+.fgf-sale-badge.has-image{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .fgf-sale-badge {
     position: absolute;
-    top: 10px;
-    left: 10px;  /* 左上角，如果要右上角改成 right */
     background: red;
     color: #fff;
     padding: 6px 10px;
@@ -182,3 +185,15 @@
     border-radius: 3px;
     z-index: 9;
 }
+
+.fgf-sale-badge.position-top-left    { top: 5px; left: 5px; }
+.fgf-sale-badge.position-top-center  { top: 5px; left: 50%; transform: translateX(-50%); }
+.fgf-sale-badge.position-top-right   { top: 5px; right: 5px; }
+
+.fgf-sale-badge.position-middle-left   { top: 50%; left: 5px; transform: translateY(-50%); }
+.fgf-sale-badge.position-middle-center { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.fgf-sale-badge.position-middle-right  { top: 50%; right: 5px; transform: translateY(-50%); }
+
+.fgf-sale-badge.position-bottom-left   { bottom: 5px; left: 5px; }
+.fgf-sale-badge.position-bottom-center { bottom: 5px; left: 50%; transform: translateX(-50%); }
+.fgf-sale-badge.position-bottom-right  { bottom: 5px; right: 5px; }
