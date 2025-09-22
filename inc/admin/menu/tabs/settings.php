@@ -35,13 +35,14 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 	 * @return array
 	 */
 	public function get_sections() {
+		//ayden zeng 2025-09-22
 		$sections = array(
 			'general' => __('General', 'buy-x-get-y-promo'),
 			'display' => __('Display', 'buy-x-get-y-promo'),
 			'notices' => __('Notices', 'buy-x-get-y-promo'),
-			'progress_bar' => __('Progress Bar', 'buy-x-get-y-promo'),
+			// 'progress_bar' => __('Progress Bar', 'buy-x-get-y-promo'),
 			'advanced' => __('Advanced', 'buy-x-get-y-promo'),
-			'notifications' => __('Notifications', 'buy-x-get-y-promo'),
+			// 'notifications' => __('Notifications', 'buy-x-get-y-promo'),
 			'localizations' => __('Localization', 'buy-x-get-y-promo'),
 			'messages' => __('Messages', 'buy-x-get-y-promo'),
 		);
@@ -130,38 +131,39 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 			'desc' => __('When enabled, a user can remove the automatically added gift products.', 'buy-x-get-y-promo'),
 			'id' => $this->get_option_key('show_automatic_free_gift_product_remove_link'),
 		);
-
-		$section_fields[] = array(
-			'title' => __('Allow Shipping Cost for Free Gift', 'buy-x-get-y-promo'),
-			'type' => 'checkbox',
-			'default' => 'no',
-			'desc_tip' => true,
-			'desc' => __('When enabled, the shipping cost will be consider for free gifts in the order.', 'buy-x-get-y-promo'),
-			'id' => $this->get_option_key('allow_shipping_free_gift'),
-		);
+		//允許贈品產生運費
+		// $section_fields[] = array(
+		// 	'title' => __('Allow Shipping Cost for Free Gift', 'buy-x-get-y-promo'),
+		// 	'type' => 'checkbox',
+		// 	'default' => 'no',
+		// 	'desc_tip' => true,
+		// 	'desc' => __('When enabled, the shipping cost will be consider for free gifts in the order.', 'buy-x-get-y-promo'),
+		// 	'id' => $this->get_option_key('allow_shipping_free_gift'),
+		// );
 		$section_fields[] = array(
 			'type' => 'sectionend',
 			'id' => 'fgf_general_options',
 		);
+		//若使用 WooCommerce 優惠券則限制贈品
 		// General Section End
 		// Restriction Section Start
-		$section_fields[] = array(
-			'type' => 'title',
-			'title' => __('Restriction Settings', 'buy-x-get-y-promo'),
-			'id' => 'fgf_restriction_options',
-		);
-		$section_fields[] = array(
-			'title' => __('Restrict Free Gift if WooCommerce Coupon is used', 'buy-x-get-y-promo'),
-			'type' => 'checkbox',
-			'default' => 'no',
-			'desc_tip' => true,
-			'desc' => __('When enabled, the user will not be eligible for a free gift if they have used a WooCommerce Coupon in the order.', 'buy-x-get-y-promo'),
-			'id' => $this->get_option_key('gift_restriction_based_coupon'),
-		);
-		$section_fields[] = array(
-			'type' => 'sectionend',
-			'id' => 'fgf_restriction_options',
-		);
+		// $section_fields[] = array(
+		// 	'type' => 'title',
+		// 	'title' => __('Restriction Settings', 'buy-x-get-y-promo'),
+		// 	'id' => 'fgf_restriction_options',
+		// );
+		// $section_fields[] = array(
+		// 	'title' => __('Restrict Free Gift if WooCommerce Coupon is used', 'buy-x-get-y-promo'),
+		// 	'type' => 'checkbox',
+		// 	'default' => 'no',
+		// 	'desc_tip' => true,
+		// 	'desc' => __('When enabled, the user will not be eligible for a free gift if they have used a WooCommerce Coupon in the order.', 'buy-x-get-y-promo'),
+		// 	'id' => $this->get_option_key('gift_restriction_based_coupon'),
+		// );
+		// $section_fields[] = array(
+		// 	'type' => 'sectionend',
+		// 	'id' => 'fgf_restriction_options',
+		// );
 		// Restriction section end
 
 		return $section_fields;
@@ -220,7 +222,7 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 			'type'  => 'text', // 用 input 來存 URL
 			'id'    => $this->get_option_key('promotion_badge_icon'),
 			'class' => 'regular-text fgf-badge-icon-url',
-			'desc'  => '<button type="button" class="button fgf-upload-badge-icon">' . __('Upload Badge Icon', 'buy-x-get-y-promo') . '</button><br>' .
+			'desc'  => '<button type="button" class="button fgf-upload-badge-icon">' . __('Upload Badge Icon', 'buy-x-get-y-promo') . '</button> <img id="preview-badge-icon" width="20" src="'.get_option('fgf_settings_promotion_badge_icon').'" /><br>' .
 					__('Upload an image to be used as the badge icon for free gifts.', 'buy-x-get-y-promo'),
 		);
 		// Badge 顯示位置
@@ -837,7 +839,7 @@ class FGF_Settings_Tab extends FGF_Settings_Page {
 			'title' => __('Enable/Disable', 'buy-x-get-y-promo'),
 			'id' => $this->get_option_key('enable_manual_gift_email'),
 			'type' => 'checkbox',
-			'default' => 'yes',
+			'default' => 'no',
 		);
 		$section_fields[] = array(
 			'title' => __('Subject', 'buy-x-get-y-promo'),

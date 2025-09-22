@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Buy X Get Y Promotion
  * Description: WooCommerce 自定义促销插件（买X送Y）.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: AydenZeng
  * Author URI: aydenzeng@gmail.com
  * Text Domain: buy-x-get-y-promo

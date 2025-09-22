@@ -20,6 +20,7 @@ jQuery(document).ready(function($){
         frame.on('select', function(){
             var attachment = frame.state().get('selection').first().toJSON();
             $('.fgf-badge-icon-url').val(attachment.url);
+            $('#preview-badge-icon').attr('src', attachment.url);
         });
 
         frame.open();
