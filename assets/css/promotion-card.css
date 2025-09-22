@@ -116,26 +116,29 @@
     margin: 20px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products  {
+.fgf-promotion-products-wrapper ul.products  {
     list-style: none;;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 15px;
     margin-top: 20px;
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-1 {
+.fgf-promotion-products-wrapper ul.products.columns-1 {
     grid-template-columns: 1fr;
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-2 {
+.fgf-promotion-products-wrapper ul.products.columns-2 {
     grid-template-columns: repeat(2, 1fr);
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-3 {
+.fgf-promotion-products-wrapper ul.products.columns-3 {
     grid-template-columns: repeat(3, 1fr);
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-4 {
+.fgf-promotion-products-wrapper ul.products.columns-4 {
     grid-template-columns: repeat(4, 1fr);
 }
-.fgf-promotion-detail .fgf-promotion-products-wrapper ul.products.columns-6 {
+.fgf-promotion-products-wrapper ul.products.columns-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+.fgf-promotion-products-wrapper ul.products.columns-6 {
     grid-template-columns: repeat(6, 1fr);
 }
 

@@ -229,7 +229,7 @@ if (!class_exists('FGF_Shortcodes')) {
 					'post_type' => 'product',
 					'post__in'  => $products,
 					'orderby'   => 'post__in',
-					'posts_per_page' => -1,
+					'posts_per_page' => 5,
 				);
 				$loop = new WP_Query($args);
 
@@ -246,7 +246,9 @@ if (!class_exists('FGF_Shortcodes')) {
 			} else {
 				$product_html = '';
 			}
+			echo '<div class="fgf-promotion-products-wrapper">';
 			echo $product_html;
+			echo '</div>';
 			return;
 		}
 		/**
@@ -344,12 +346,16 @@ if (!class_exists('FGF_Shortcodes')) {
 
 			// 短代码参数
 			$atts = shortcode_atts(array(
-				'mode'     => 'pagination', // scroll | click | pagination
+				'mode'     => 'pagination', // scroll | click | pagination | txt
 				'per_page' => 10,   // 每页显示多少条
 				'columns'  => 4,        // 网格列数
 				'ids'      => '',       // 指定显示的促销ID，逗号分隔
 			), $atts, 'promotion_list');
 
+			$atts['mode'] = in_array($atts['mode'], array('scroll', 'click', 'pagination', 'txt')) ? $atts['mode'] : 'pagination';
+			if($atts['mode'] == 'txt'){
+				$atts['per_page'] = 100;
+			}
 			$per_page = intval($atts['per_page']);
 			$mode     = sanitize_text_field($atts['mode']);
 			$ids 	= sanitize_text_field($atts['ids']);
@@ -395,6 +401,21 @@ if (!class_exists('FGF_Shortcodes')) {
 				ORDER BY menu_order ASC, ID ASC
 				LIMIT %d OFFSET %d
 			", $rules_post_type, $per_page, $offset));
+			if($atts['mode'] == 'txt'){
+				// 纯文本模式
+				$output = '<ul class="fgf-promotion-txt-list">';
+				foreach ($rules as $rule_post) {
+					$rule = fgf_get_rule($rule_post->ID);
+					if (!$rule) continue;
+					$title = esc_html($rule->get_name());
+					$link = esc_url($rule->get_frontend_permalink());
+					$output .= "<li><a href='{$link}'>{$title}</a></li>";
+				}
+				$output .= '</ul>';
+				echo $output;
+				return;
+			}
+			// 网格模式
 
 			// 初始内容
 			$output  = '<div id="promotion-list" class="fgf-promotions-grid" style="grid-template-columns: repeat(' . intval($columns) . ', 1fr); gap: 20px; margin:20px 0;">';
